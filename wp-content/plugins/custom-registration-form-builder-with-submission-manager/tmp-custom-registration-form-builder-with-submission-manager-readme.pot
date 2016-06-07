@@ -1,0 +1,1087 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "RegistrationMagic-Custom Registration Forms"
+msgstr ""
+
+#. Short description.
+msgid "Create customized registration forms, accept payments, track submissions, manage users, analyze stats, assign user roles and much more!!"
+msgstr ""
+
+#. Screenshot description.
+msgid "Forms Manager with options to sort, delete and edit forms."
+msgstr ""
+
+#. Screenshot description.
+msgid "Global Settings to manage user registration behavior."
+msgstr ""
+
+#. Found in description header.
+msgid "Hold On! So, what exactly is RegistrationMagic?"
+msgstr ""
+
+#. Found in description header.
+msgid "Here’s quick overview of features:"
+msgstr ""
+
+#. Found in description header.
+msgid "A. Dashboard Features"
+msgstr ""
+
+#. Found in description header.
+msgid "B. Global Settings Feature"
+msgstr ""
+
+#. Found in description header.
+msgid "C. Individual Form Features"
+msgstr ""
+
+#. Found in description header.
+msgid "D. Custom Fields"
+msgstr ""
+
+#. Found in description header.
+msgid "E. Submissions"
+msgstr ""
+
+#. Found in description header.
+msgid "F. Analytics"
+msgstr ""
+
+#. Found in description header.
+msgid "G. User Roles"
+msgstr ""
+
+#. Found in description header.
+msgid "H. Attachment"
+msgstr ""
+
+#. Found in description header.
+msgid "I. Users"
+msgstr ""
+
+#. Found in description header.
+msgid "J. Email Users"
+msgstr ""
+
+#. Found in description list item.
+msgid "Create Unlimited Forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Short code system for forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Form Cards to visualize forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add Form short-codes from default WP Editor"
+msgstr ""
+
+#. Found in description list item.
+msgid "Quickly add a form with single click"
+msgstr ""
+
+#. Found in description list item.
+msgid "Latest Submissions Widget"
+msgstr ""
+
+#. Found in description list item.
+msgid "Show submissions under user profile"
+msgstr ""
+
+#. Found in description list item.
+msgid "Built in responsive neutral style with 3 layouts"
+msgstr ""
+
+#. Found in description list item.
+msgid "Match the theme style with 2 layouts"
+msgstr ""
+
+#. Found in description list item.
+msgid "Capture IP and Browser data"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define file upload allowed types (Silver Edition)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Allow multiple file attachments (Silver Edition)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Show Countdown text above form with expiry turned on"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define default WordPress registration page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define the page, where user is redirected after login"
+msgstr ""
+
+#. Found in description list item.
+msgid "Latest reCAPTCHA"
+msgstr ""
+
+#. Found in description list item.
+msgid "Set limit to daily submissions from a single IP"
+msgstr ""
+
+#. Found in description list item.
+msgid "Auto Generate Password"
+msgstr ""
+
+#. Found in description list item.
+msgid "Auto-Approve Registrations (Silver Edition)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Send Username and Password via email"
+msgstr ""
+
+#. Found in description list item.
+msgid "Send notifications to multiple email address"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom SMTP Configuration for outgoing mails"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define Sender’s Name"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define Reply-to email address"
+msgstr ""
+
+#. Found in description list item.
+msgid "Facebook Registration"
+msgstr ""
+
+#. Found in description list item.
+msgid "Mailchimp Integration"
+msgstr ""
+
+#. Found in description list item.
+msgid "PayPal integration"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define Currency and Symbol position"
+msgstr ""
+
+#. Found in description list item.
+msgid "Auto Assign User Roles to registering users. (Silver Edition)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Allow users to pick Roles. (Silver Edition)"
+msgstr ""
+
+#. Found in description list item.
+msgid "WYSIWYG Editor for Pre-Form Content"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Success Message"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Auto-Responder"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define Submit button text and background color"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define Submit button Label"
+msgstr ""
+
+#. Found in description list item.
+msgid "Connect to a MailChimp List"
+msgstr ""
+
+#. Found in description list item.
+msgid "Map MailChimp Fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Auto Expiry based on date"
+msgstr ""
+
+#. Found in description list item.
+msgid "Auto Expiry based on submissions"
+msgstr ""
+
+#. Found in description list item.
+msgid "User defined post-expiry message"
+msgstr ""
+
+#. Found in description list item.
+msgid "Available Field Types: Heading, Text, Paragraph (Read Only), DropDown, Radio, TextArea, Checkbox, Date, Email, Number, Country, Timezone, T&amp;C, File (Silver Edition)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Drag and Drop Sorting"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Labels"
+msgstr ""
+
+#. Found in description list item.
+msgid "Placeholder Text for Text Fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Default Values for Selectable Fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Option to add CSS Class Attribute"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define maximum Length for Text Field"
+msgstr ""
+
+#. Found in description list item.
+msgid "Make Fields Mandatory"
+msgstr ""
+
+#. Found in description list item.
+msgid "Drag and Drop Sorting for radio and checkbox option labels"
+msgstr ""
+
+#. Found in description list item.
+msgid "Define Rows and Columns for Text Area"
+msgstr ""
+
+#. Found in description list item.
+msgid "Allowed field types for File Upload field"
+msgstr ""
+
+#. Found in description list item.
+msgid "Payment fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Profile Fields (First Name, Last Name, Bio)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Capture all Submissions"
+msgstr ""
+
+#. Found in description list item.
+msgid "Filter Submissions based on form and time"
+msgstr ""
+
+#. Found in description list item.
+msgid "Export All Submissions as Excel (Silver Edition)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Export Search Results Only"
+msgstr ""
+
+#. Found in description list item.
+msgid "Search By Date or field values"
+msgstr ""
+
+#. Found in description list item.
+msgid "View Individual Submission with all fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Download Individual Submission as PDF"
+msgstr ""
+
+#. Found in description list item.
+msgid "Batch Delete Submission"
+msgstr ""
+
+#. Found in description list item.
+msgid "View User Location in Submission"
+msgstr ""
+
+#. Found in description list item.
+msgid "Approve WP Registrations (Silver Edition)"
+msgstr ""
+
+#. Found in description list item.
+msgid "See and download attachments from individual submission"
+msgstr ""
+
+#. Found in description list item.
+msgid "Visitor IP"
+msgstr ""
+
+#. Found in description list item.
+msgid "Submission Success Status"
+msgstr ""
+
+#. Found in description list item.
+msgid "Visiting Time"
+msgstr ""
+
+#. Found in description list item.
+msgid "Visitor Location through external link"
+msgstr ""
+
+#. Found in description list item.
+msgid "Submission Time"
+msgstr ""
+
+#. Found in description list item.
+msgid "Form Filling Time"
+msgstr ""
+
+#. Found in description list item.
+msgid "Submission Success % Pie Chart"
+msgstr ""
+
+#. Found in description list item.
+msgid "Browser Used Pie Chart"
+msgstr ""
+
+#. Found in description list item.
+msgid "Form Success Rate Percentage"
+msgstr ""
+
+#. Found in description list item.
+msgid "Average Form Filling Time"
+msgstr ""
+
+#. Found in description list item.
+msgid "Browser Based Success Rate Bar Chart"
+msgstr ""
+
+#. Found in description list item.
+msgid "Percentage Pie Charts for DropDown, Radio Button and Checkbox Fields (Silver Edition)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Create New User Roles"
+msgstr ""
+
+#. Found in description list item.
+msgid "Delete Custom User Roles"
+msgstr ""
+
+#. Found in description list item.
+msgid "Assign permissions to Custom User Roles"
+msgstr ""
+
+#. Found in description list item.
+msgid "View all attachments received from users in a single page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Filter Attachments based on forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Download individual attachment or all as a zip file."
+msgstr ""
+
+#. Found in description list item.
+msgid "View all users in a single page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Filter Users based on registration time and/ or state"
+msgstr ""
+
+#. Found in description list item.
+msgid "Batch delete/ deactivate users"
+msgstr ""
+
+#. Found in description list item.
+msgid "View individual user page"
+msgstr ""
+
+#. Found in description list item.
+msgid "View Custom fields, payment and submission data on individual user page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Edit User"
+msgstr ""
+
+#. Found in description list item.
+msgid "Send messages to users using rich text editor with merge fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Filter Message recipients based on forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Check message sending status from earlier queues."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"For any issues, bugs, feature requests and general help, contact our awesome support team!\n"
+"  <a href=\"http://registrationmagic.com/help-support/\">Create New Support Ticket</a>\n"
+"  To download an old version, go to &gt;<a href=\"https://wordpress.org/plugins/custom-registration-form-builder-with-submission-manager/developers/\">Developers Tab</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "RegistrationMagic is a powerful WordPress plugin that gives you TOTAL CONTROL of user registrations on your website. You can create different forms for user registrations, each with different pre-defined fields. You can also set up payments for paid registrations. A Front-End user area allows your users to login, reset password, check their transactions, download submissions etc."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "RegistrationMagic tracks all incoming form submissions and activities which you can monitor from dashboard, making informed decision about form changes. You can also accept attachments (single or multiple), and view/ download them from single area in the dashboard. Advanced filters allow you to see form submissions for specific form and time."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There’s also a fully fledged User Managed module integrated with RegistrationMagic. It goes a step ahead of default WordPress User manager by connecting registration and payment activities with individual user accounts."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In short, RegistrationMagic is the missing user registration system for WordPress and a powerful addition to any WordPress admin’s arsenal."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "And that’s not all! RegistrationMagic is in active development with new features being rolled out every fortnight. If you feel anything is missing, just request our team and you may see it in the very next release!"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<p>Download the plugin</p>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<p>Go to your Dashboard and locate Plugins tab. Click on Upload Plugin and specify the path of downloaded plugin in the text box.</p>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<p>Click on Activate Plugin</p>"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Download the plugin"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Go to your Dashboard and locate Plugins tab. Click on Upload Plugin and specify the path of downloaded plugin in the text box."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Click on Activate Plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added 'Export submission to third-party url' feature (Silver Edition)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved validations on admin side."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved MTML structure."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug in Facebook login."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Shortcode now works inside widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a submission issue related with browser caching."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stripe Payment system Integration (Silver Edition)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GUI improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Option in global settings to enable/disable expiry countdown"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other bug fixes or functional improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now users can re-submit forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Progress bar/Message above the form when auto-expiry is turned on "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed compatibility issues with PHP 5.3 version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Revamped Support Page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Front End user details page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS fixes and improvements "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: form always appearing before  post content on front-end."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: CSS issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Typos."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Unavailable features in standard edition now have grayed-out links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Forgot Password link visible under login area."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS Fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete code overhaul"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin-wide GUI improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Email Users section"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New sidebar with filters in table view"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Latest submissions visible on form card"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lot of bug fixes and improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Style Layouts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Maintenance Release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option for SMTP relay for outgoing mail"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Random bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issues with Multi-Site (network sites) installations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue that did not allowed fetching more than 10 MailChimp lists"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a new option in reCaptcha settings for users who get errors while submission"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added “Users” section in left menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added User Manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to show custom fields on User Page (Silver Edition)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to deactivate existing user (Silver Edition)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Users Table."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Random bug fixes and GUI improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security issue with password encryption fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue where multiple forms on a single page did not worked properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some Front-end issues when migrating old data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changes in Database for recording additional data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added user role manager feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed user role label formatting issue in front-end (Silver Edition)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added PayPal integration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to create different pricing fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Attachment browser for form submissions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added User facing area with submission and payments tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added One Time Password (OTP) system"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to download submissions as PDF"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to add notes to submissions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added profile fields in custom fields manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added dashboard latest submissions widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added OTP Widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Long list of bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "General CSS improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increased default list size of submissions to 20"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to show admin notes to the user and send email notification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a new view for checkbox and radio button custom fields using CSS Attribute \"rm_row\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "General structural improvements and bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added add form button in WYSIWYG Editor to make it easier to insert short codes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Global Settings is now divided into sections."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added an option to add multiple emails for admin notifications."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added MailChimp integration and default field mapping."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved search and filtering for submissions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced date picker with one that allows easier changing of years."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made it easier to turn on WP registrations to forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WYSIWYG/ HTML Editors for Form header content and Auto-Responder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Mail Merge feature to auto-responder editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to chose submit button background and text color."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed reset button in classic theme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added short-code for adding login box."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to define default WordPress registration page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GUI Improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added form and field statistics/ analytics."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to define redirection page after successful login."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed left menu main link title to \"Registrations\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some issues with last update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option for Facebook login"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to send Username and Password to users through email"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GUI Improvements to adding items in checkbox and radio-box"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Under the hood improvements to handling submissions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made classic theme responsive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved HTML Structure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where the form was always appearing on top, despite pasting the short-code within content."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug that did not allowed showing multiple forms on a page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Major Security Updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Form Auto Expiry Option Added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor Bug Fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected some file names"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug in file upload field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new demo and upgrade options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stability Improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option for new add-on"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Browser name in entry details is more apparent now "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to change Submit button label"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue with special character labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default theme CSS fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now you can copy short-code by clicking on it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Required fields now show asterix at their end."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed validation issues in checkbox and radio fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Terms and Conditions field is now configurable and easier to use."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now you can add special characters in field labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added default value option for text fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Usability fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added timezone field type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added country list field type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made it easier to add forms from WordPress default top menu by clicking the New link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made Paragraph a Text Area field for adding multiple lines of text."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made left menu link to the plugin more accessible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a new theme “Default”. Old theme renamed as “Classic”. Default theme now picks form elements from active site template for a more uniformed look. Theme settings can be accessed from settings link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug with recaptcha"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Global Settings are now easier to access"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GUI Improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Email notification issues fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some CSS issues fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pagination bug fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added IP capture and browser capture option in global settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added quick link to view geo location of the IP captured"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added View button submission manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added From Email feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes related to notifications"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "File Addon support added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI Improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Banner"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First Release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Custom Fields"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"= 3.1.4\n"
+"* Added user activation through email (Silver Edition).\n"
+"* Added French Language.\n"
+"* Minor bug fixes."
+msgstr ""
+
+#. Found in faq header.
+msgid "Is there a limit to the number of forms I can create?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I show forms on my website or blog?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I add custom fields to my form?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I access form submissions?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I set autoresponder for a form?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I rearrange fields in my forms?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, there is no limit. You can create as many forms as you like."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Just copy the short-code for a form on it’s card in forms manager and paste it inside the page or post you want to show the form on."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Click “Fields” button on a form card to go to fields manager for that form. Here you can add, edit and sort the fields."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Either click the number counter on a form’s card or go to “Custom Registration Form -&gt; Submission” on the left menu."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you can set autoresponder for a form by clicking “Edit” button on a form card and turning the autoresponder toggle on. 2 New fields will appear below it to set Subject and Message."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you can change field order of custom fields by drag and drop method in dashboard"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"= How can I inset a form within the content?\n"
+"Please update to version 1.4.2. It fixes an old bug that always moved the form above the content."
+msgstr ""
