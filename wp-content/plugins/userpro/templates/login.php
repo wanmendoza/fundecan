@@ -16,6 +16,9 @@ $layout = $args['layout'];
 		<?php } ?>
 		<div class="userpro-clear"></div>
 	</div>
+	<div class="logouserprologin">
+	<img src="<?php echo site_url();?>/wp-content/uploads/2016/06/logofundecan80.png">
+	</div>
 	
 	<div class="userpro-body">
 	

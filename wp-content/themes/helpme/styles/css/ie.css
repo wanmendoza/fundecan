@@ -1,0 +1,6 @@
+.helpme-body-loader-overlay, #sw-main-box {
+  display: none !important;
+}
+.helpme-section-color-mask {
+	display: none !important;
+}

@@ -1,0 +1,5924 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: helpme v1.0\n"
+"POT-Creation-Date: 2016-02-15 19:21+0500\n"
+"PO-Revision-Date: 2016-02-15 19:22+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: js\n"
+"X-Poedit-SearchPath-2: styles\n"
+"X-Poedit-SearchPath-3: tribe-events\n"
+"X-Poedit-SearchPath-4: woocommerce\n"
+
+#: js/min/plugins-ck.js:3 js/plugins.js:1855
+msgid "marginTop,marginRight,marginBottom,marginLeft"
+msgstr ""
+
+#: js/min/plugins-ck.js:3 js/plugins.js:1855
+msgid "paddingTop,paddingRight,paddingBottom,paddingLeft"
+msgstr ""
+
+#: js/min/plugins-ck.js:3 js/plugins.js:1855
+msgid "borderTopWidth,borderRightWidth,borderBottomWidth,borderLeftWidth"
+msgstr ""
+
+#: includes/actions/general.php:35
+msgid "UPCOMING EVENT"
+msgstr ""
+
+#: includes/actions/general.php:39
+msgid "OUR PORTFOLIO"
+msgstr ""
+
+#: includes/actions/general.php:43
+msgid "OUR CAUSES"
+msgstr ""
+
+#: includes/actions/general.php:79 includes/framework/sidebar-generator.php:15
+msgid "Search"
+msgstr ""
+
+#: includes/actions/general.php:83 includes/actions/general.php:86
+#: includes/actions/general.php:89 includes/actions/general.php:95
+#: includes/actions/general.php:104 includes/actions/general.php:108
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: includes/actions/general.php:92
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/actions/general.php:113
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/actions/general.php:224
+msgid "Home"
+msgstr ""
+
+#: includes/actions/general.php:329
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: includes/actions/general.php:333
+msgid "Tag &ldquo;"
+msgstr ""
+
+#: includes/actions/general.php:338
+msgid "Author:"
+msgstr ""
+
+#: includes/actions/general.php:358
+#: includes/framework/metabox-generator.php:523
+msgid "Page"
+msgstr ""
+
+#: includes/actions/general.php:399
+msgid "Split"
+msgstr ""
+
+#: includes/actions/general.php:402
+msgid "Merge"
+msgstr ""
+
+#: includes/actions/general.php:405 includes/actions/general.php:419
+#: includes/actions/general.php:439 woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+#: includes/actions/posts.php:41
+msgid "Related Posts"
+msgstr ""
+
+#: includes/custom-post/blog-styles/classic.php:150
+msgid "0"
+msgstr ""
+
+#: includes/custom-post/blog-styles/classic.php:150
+#: includes/custom-post/shortcodes-config/social.php:645
+#: includes/custom-post/shortcodes-config/social.php:727
+msgid "1"
+msgstr ""
+
+#: includes/custom-post/blog-styles/classic.php:150
+msgid "%"
+msgstr ""
+
+#: includes/custom-post/blog-styles/thumb.php:53
+msgid "By : "
+msgstr ""
+
+#: includes/custom-post/blog-styles/thumb.php:61
+msgid "Read more"
+msgstr ""
+
+#: includes/custom-post/blog-styles/tile.php:210
+#: includes/custom-post/shortcodes/helpme_causes.php:133
+#: includes/custom-post/shortcodes/helpme_causes.php:195
+#: includes/custom-post/shortcodes/helpme_products.php:323
+#: woocommerce/content-product.php:117
+msgid "Read More"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:17
+msgid "Same window"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:17
+msgid "New window"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:22
+msgid "Visibility For devices"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:33
+msgid ""
+"You can make this element invisible for a particular device (screen "
+"resolution) or set it to All to be visible for all devices."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:163
+#: includes/custom-post/shortcodes-config/config-head.php:175
+#: woocommerce/myaccount/my-orders.php:33
+#: woocommerce/myaccount/my-orders.php:52
+msgid "Date"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:164
+msgid "Posts In (manually selected posts)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:165
+msgid "Menu Order"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:166
+msgid "post id"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:167
+msgid "title"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:168
+msgid "Comment Count"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:169
+#: includes/custom-post/shortcodes-config/config-head.php:181
+#: includes/custom-post/shortcodes-config/social.php:707
+msgid "Random"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:170
+msgid "Author"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:171
+msgid "No order"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:176
+#: includes/custom-post/shortcodes-config/general.php:2458
+#: includes/custom-post/shortcodes-config/general.php:2772
+msgid "Title"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:177
+msgid "Product ID"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:178
+#: includes/custom-post/shortcodes-config/config-head.php:186
+#: includes/custom-post/shortcodes-config/social.php:906
+msgid "Name"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:179
+#: woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:180
+msgid "Sales"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:184
+msgid "ID"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:185
+#: includes/custom-post/shortcodes-config/loops.php:166
+#: includes/custom-post/shortcodes-config/loops.php:618
+#: includes/custom-post/shortcodes-config/loops.php:851
+#: includes/custom-post/shortcodes-config/slideshows.php:894
+msgid "Count"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:187
+msgid "Slug"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/config-head.php:188
+#: includes/custom-post/shortcodes-config/general.php:591
+#: includes/custom-post/shortcodes-config/general.php:1228
+#: includes/custom-post/shortcodes-config/general.php:2060
+#: includes/custom-post/shortcodes-config/typography.php:209
+msgid "None"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:190
+msgid "Page Section"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:192
+#: includes/custom-post/shortcodes-config/general.php:632
+#: includes/custom-post/shortcodes-config/general.php:768
+#: includes/custom-post/shortcodes-config/general.php:918
+#: includes/custom-post/shortcodes-config/general.php:1611
+#: includes/custom-post/shortcodes-config/general.php:1926
+#: includes/custom-post/shortcodes-config/general.php:2289
+#: includes/custom-post/shortcodes-config/general.php:2839
+#: includes/custom-post/shortcodes-config/general.php:3245
+#: includes/custom-post/shortcodes-config/general.php:4134
+msgid "General"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:198
+msgid "Customisable full width page section."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:202
+msgid "Section Structure"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:206
+msgid "Full Layout"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:207
+msgid "One Half (Background Image on Left & Content in Right)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:208
+msgid "One Half (Background Image on Right & Content in Left)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:210
+msgid ""
+"If chosen One Half layouts, uploaded background image will be displyed in "
+"one half of the screen width. the shortcodes placed in this section will "
+"occupy the rest of the half(not screen wide, rather it will follow half of "
+"the main grid width)."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:214
+#: includes/custom-post/shortcodes-config/general.php:1194
+#: includes/custom-post/shortcodes-config/general.php:1978
+msgid "Box Background Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:221
+#: includes/custom-post/shortcodes-config/general.php:657
+#: includes/framework/metabox-generator.php:538
+msgid "Background Image"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:228
+msgid "Border Top and Bottom Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:235
+#: includes/framework/metabox-generator.php:585
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:239
+msgid "Scroll"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:240
+msgid "Fixed"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:242
+msgid ""
+"The background-attachment property sets whether a background image is fixed "
+"or scrolls with the rest of the page. <a href='http://www.w3schools.com/"
+"CSSref/pr_background-attachment.asp'>Read More</a>"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:252
+#: includes/custom-post/shortcodes-config/general.php:664
+#: includes/framework/metabox-generator.php:590
+msgid "Background Position"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:256
+#: includes/custom-post/shortcodes-config/general.php:668
+msgid "Left Top"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:257
+#: includes/custom-post/shortcodes-config/general.php:669
+msgid "Center Top"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:258
+#: includes/custom-post/shortcodes-config/general.php:670
+msgid "Right Top"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:259
+#: includes/custom-post/shortcodes-config/general.php:671
+msgid "Left Center"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:260
+#: includes/custom-post/shortcodes-config/general.php:672
+msgid "Center Center"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:261
+#: includes/custom-post/shortcodes-config/general.php:673
+msgid "Right Center"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:262
+#: includes/custom-post/shortcodes-config/general.php:674
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:263
+#: includes/custom-post/shortcodes-config/general.php:675
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:264
+#: includes/custom-post/shortcodes-config/general.php:676
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:266
+#: includes/custom-post/shortcodes-config/general.php:678
+msgid ""
+"First value defines horizontal position and second vertical positioning."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:276
+#: includes/custom-post/shortcodes-config/general.php:682
+#: includes/framework/metabox-generator.php:579
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:280
+#: includes/custom-post/shortcodes-config/general.php:686
+msgid "Repeat"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:281
+#: includes/custom-post/shortcodes-config/general.php:687
+msgid "No Repeat"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:282
+#: includes/custom-post/shortcodes-config/general.php:688
+msgid "Horizontally repeat"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:283
+#: includes/custom-post/shortcodes-config/general.php:689
+msgid "Vertically Repeat"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:295
+msgid "Cover whole background"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:296
+msgid ""
+"Scale the background image to be as large as possible so that the background "
+"area is completely covered by the background image. Some parts of the "
+"background image may not be in view within the background positioning area."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:302
+msgid "Enable Parallax background"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:305
+#: includes/custom-post/shortcodes-config/general.php:337
+#: includes/custom-post/shortcodes-config/general.php:400
+#: includes/custom-post/shortcodes-config/general.php:568
+#: includes/custom-post/shortcodes-config/social.php:538
+msgid "No"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:306
+#: includes/custom-post/shortcodes-config/general.php:338
+#: includes/custom-post/shortcodes-config/general.php:401
+#: includes/custom-post/shortcodes-config/general.php:569
+#: includes/custom-post/shortcodes-config/social.php:539
+msgid "Yes"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:308
+#: includes/custom-post/shortcodes-config/general.php:571
+msgid ""
+"Using this option you can make this page section's height to cover the whole "
+"visible screen height (Not document height). Please note that if the inner "
+"content is larger than the window height, this feature will be disabled. "
+"Full height is browser resize sensitive and completely responsive."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:312
+msgid "Parallax Direction"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:316
+msgid "Vertical trigger on page scroll"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:317
+msgid "Vertical trigger on mouse move"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:318
+msgid "Horizontal trigger on page scroll"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:319
+msgid "Horizontal trigger on mouse move"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:320
+msgid "Horizontal & Vertical trigger on mouse move"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:333
+msgid "Background Video?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:344
+msgid "MP4 Format"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:347
+msgid "Compatibility for Safari, IE9"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:357
+msgid "WebM Format"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:360
+msgid "Compatibility for Firefox4, Opera, and Chrome"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:370
+msgid "OGV Format"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:373
+msgid "Compatibility for older Firefox and Opera versions"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:383
+msgid "Background Video Preview image (and fallback image)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:386
+msgid ""
+"This Image will shown until video load. in case of video is not supported or "
+"did not load the image will remain as fallback."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:396
+msgid "Expandable Page Section"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:403
+msgid ""
+"If you want to have your page section content in a toggle that can be "
+"clicked to expand/collapse, Choose Yes and customize below options. This "
+"option will not work if \"Full Height\" option is enabled."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:407
+msgid "Mask Pattern? (optional)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:409
+msgid "If you enable this option a pattern will overlay the section."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:420
+msgid "Color Mask (optional)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:433
+msgid "Color Mask Opacity"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:450
+msgid "Expandable Page Section Text"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:453
+msgid "e.g. Click here to see more."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:463
+msgid "Expandable Page Section Hover Image"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:470
+msgid "Expandable Page Section Hover Icon"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:473
+#: includes/custom-post/shortcodes-config/general.php:1824
+#: includes/custom-post/shortcodes-config/general.php:2327
+#: includes/custom-post/shortcodes-config/general.php:2970
+#: includes/custom-post/shortcodes-config/general.php:3419
+#: includes/custom-post/shortcodes-config/social.php:319
+#: includes/plugins-config/wp-nav-custom-walker.php:315
+msgid ""
+" to get the icon class name (or any other font icons library that you have "
+"installed in the theme)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:473
+#: includes/custom-post/shortcodes-config/general.php:1824
+#: includes/custom-post/shortcodes-config/general.php:2327
+#: includes/custom-post/shortcodes-config/general.php:2970
+#: includes/custom-post/shortcodes-config/general.php:3419
+#: includes/custom-post/shortcodes-config/social.php:319
+#: includes/plugins-config/wp-nav-custom-walker.php:315
+msgid "<a target='_blank' href='"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:477
+msgid "Expandable Page Section Icon Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:494
+msgid "Expandable Page Section Text Align"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:498
+#: includes/custom-post/shortcodes-config/general.php:707
+#: includes/custom-post/shortcodes-config/general.php:869
+#: includes/custom-post/shortcodes-config/general.php:1186
+#: includes/custom-post/shortcodes-config/general.php:1860
+#: includes/custom-post/shortcodes-config/general.php:2376
+#: includes/custom-post/shortcodes-config/loops.php:2123
+#: includes/custom-post/shortcodes-config/social.php:116
+#: includes/custom-post/shortcodes-config/typography.php:26
+#: includes/custom-post/shortcodes-config/typography.php:271
+#: includes/custom-post/shortcodes-config/typography.php:283
+#: includes/custom-post/shortcodes-config/typography.php:492
+msgid "Left"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:499
+#: includes/custom-post/shortcodes-config/general.php:706
+#: includes/custom-post/shortcodes-config/general.php:871
+#: includes/custom-post/shortcodes-config/general.php:1188
+#: includes/custom-post/shortcodes-config/general.php:1862
+#: includes/custom-post/shortcodes-config/loops.php:2122
+#: includes/custom-post/shortcodes-config/social.php:118
+#: includes/custom-post/shortcodes-config/typography.php:25
+#: includes/custom-post/shortcodes-config/typography.php:273
+#: includes/custom-post/shortcodes-config/typography.php:282
+#: includes/custom-post/shortcodes-config/typography.php:494
+msgid "Center"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:500
+#: includes/custom-post/shortcodes-config/general.php:708
+#: includes/custom-post/shortcodes-config/general.php:870
+#: includes/custom-post/shortcodes-config/general.php:1187
+#: includes/custom-post/shortcodes-config/general.php:1861
+#: includes/custom-post/shortcodes-config/general.php:2377
+#: includes/custom-post/shortcodes-config/loops.php:2124
+#: includes/custom-post/shortcodes-config/social.php:117
+#: includes/custom-post/shortcodes-config/typography.php:27
+#: includes/custom-post/shortcodes-config/typography.php:272
+#: includes/custom-post/shortcodes-config/typography.php:284
+#: includes/custom-post/shortcodes-config/typography.php:493
+msgid "Right"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:512
+msgid "Expandable Page Section Text & Arrow Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:525
+msgid "Expandable Page Section Text Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:543
+msgid "Padding Top"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:550
+msgid ""
+"This option defines how much top  distance you need to have inside this "
+"section"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:554
+msgid "Padding Bottom"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:561
+msgid ""
+"This option defines how much bottom distance you need to have inside this "
+"section"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:565
+msgid "Full Screen Height?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:575
+msgid "Full Width?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:578
+#, php-format
+msgid ""
+"If you want to make this section's content 100% full width enable this "
+"option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:588
+msgid "Page Section Intro Effect"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:592
+msgid "Shuffle"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:593
+#: includes/custom-post/shortcodes-config/loops.php:1750
+msgid "Zoom Out"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:594
+msgid "Fade In"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:596
+msgid ""
+"Note that this page section must be the first element in the page with full "
+"height enabled above."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:606
+msgid "Section ID"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:609
+msgid ""
+"You can user this field to give your page section a unique ID. please note "
+"that this should be used only once in a page."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:614
+#: includes/custom-post/shortcodes-config/general.php:756
+#: includes/custom-post/shortcodes-config/general.php:903
+#: includes/custom-post/shortcodes-config/general.php:1279
+#: includes/custom-post/shortcodes-config/general.php:1913
+#: includes/custom-post/shortcodes-config/general.php:2169
+#: includes/custom-post/shortcodes-config/general.php:2552
+#: includes/custom-post/shortcodes-config/general.php:2824
+#: includes/custom-post/shortcodes-config/general.php:3033
+#: includes/custom-post/shortcodes-config/general.php:3527
+#: includes/custom-post/shortcodes-config/general.php:4375
+#: includes/custom-post/shortcodes-config/general.php:4400
+#: includes/custom-post/shortcodes-config/loops.php:92
+#: includes/custom-post/shortcodes-config/loops.php:394
+#: includes/custom-post/shortcodes-config/loops.php:689
+#: includes/custom-post/shortcodes-config/loops.php:788
+#: includes/custom-post/shortcodes-config/loops.php:1130
+#: includes/custom-post/shortcodes-config/loops.php:1638
+#: includes/custom-post/shortcodes-config/loops.php:2247
+#: includes/custom-post/shortcodes-config/loops.php:2527
+#: includes/custom-post/shortcodes-config/slideshows.php:1176
+#: includes/custom-post/shortcodes-config/social.php:276
+#: includes/custom-post/shortcodes-config/social.php:323
+#: includes/custom-post/shortcodes-config/social.php:366
+#: includes/custom-post/shortcodes-config/social.php:606
+#: includes/custom-post/shortcodes-config/social.php:658
+#: includes/custom-post/shortcodes-config/social.php:737
+#: includes/custom-post/shortcodes-config/social.php:848
+#: includes/custom-post/shortcodes-config/social.php:949
+#: includes/custom-post/shortcodes-config/typography.php:42
+#: includes/custom-post/shortcodes-config/typography.php:297
+#: includes/custom-post/shortcodes-config/typography.php:358
+#: includes/custom-post/shortcodes-config/typography.php:508
+msgid "Extra class name"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:617
+#: includes/custom-post/shortcodes-config/general.php:759
+#: includes/custom-post/shortcodes-config/general.php:906
+#: includes/custom-post/shortcodes-config/general.php:1282
+#: includes/custom-post/shortcodes-config/general.php:2172
+#: includes/custom-post/shortcodes-config/general.php:2555
+#: includes/custom-post/shortcodes-config/general.php:4378
+#: includes/custom-post/shortcodes-config/social.php:326
+#: includes/custom-post/shortcodes-config/social.php:369
+#: includes/custom-post/shortcodes-config/social.php:609
+#: includes/custom-post/shortcodes-config/social.php:661
+#: includes/custom-post/shortcodes-config/social.php:740
+#: includes/custom-post/shortcodes-config/social.php:851
+#: includes/custom-post/shortcodes-config/social.php:952
+#: includes/custom-post/shortcodes-config/typography.php:45
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:625
+msgid "Custom Box"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:630
+msgid "Custom Box For your contents."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:637
+#: includes/custom-post/shortcodes-config/general.php:1201
+#: includes/custom-post/shortcodes-config/social.php:34
+#: includes/custom-post/shortcodes-config/social.php:893
+msgid "Border Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:644
+#: includes/custom-post/shortcodes-config/social.php:47
+msgid "Background Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:651
+msgid "Drop Outer Shadow"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:696
+msgid ""
+"Scale the background image to be as large as possible so that the background "
+"area is completely covered by the background image. Some parts of the "
+"background image may not be in view within the background positioning area"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:703
+msgid "text align"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:714
+msgid "Padding Top and Bottom"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:725
+msgid "Padding Left and Right"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:736
+#: includes/custom-post/shortcodes-config/general.php:884
+#: includes/custom-post/shortcodes-config/general.php:1876
+#: includes/custom-post/shortcodes-config/typography.php:255
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:747
+#: includes/custom-post/shortcodes-config/general.php:895
+#: includes/custom-post/shortcodes-config/general.php:1271
+#: includes/custom-post/shortcodes-config/general.php:1906
+#: includes/custom-post/shortcodes-config/general.php:2544
+#: includes/custom-post/shortcodes-config/general.php:3026
+#: includes/custom-post/shortcodes-config/loops.php:387
+#: includes/custom-post/shortcodes-config/loops.php:682
+#: includes/custom-post/shortcodes-config/slideshows.php:1169
+#: includes/custom-post/shortcodes-config/social.php:269
+#: includes/custom-post/shortcodes-config/social.php:359
+#: includes/custom-post/shortcodes-config/social.php:942
+#: includes/custom-post/shortcodes-config/typography.php:33
+#: includes/custom-post/shortcodes-config/typography.php:290
+#: includes/custom-post/shortcodes-config/typography.php:501
+msgid "Viewport Animation"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:750
+#: includes/custom-post/shortcodes-config/general.php:898
+#: includes/custom-post/shortcodes-config/general.php:1274
+#: includes/custom-post/shortcodes-config/general.php:1909
+#: includes/custom-post/shortcodes-config/general.php:2547
+#: includes/custom-post/shortcodes-config/general.php:3029
+#: includes/custom-post/shortcodes-config/loops.php:390
+#: includes/custom-post/shortcodes-config/loops.php:685
+#: includes/custom-post/shortcodes-config/slideshows.php:1172
+#: includes/custom-post/shortcodes-config/social.php:272
+#: includes/custom-post/shortcodes-config/social.php:362
+#: includes/custom-post/shortcodes-config/social.php:945
+#: includes/custom-post/shortcodes-config/typography.php:36
+#: includes/custom-post/shortcodes-config/typography.php:293
+#: includes/custom-post/shortcodes-config/typography.php:504
+msgid ""
+"Viewport animation will be triggered when this element is being viewed when "
+"you scroll page down. you only need to choose the animation style from this "
+"option. please note that this only works in moderns. We have disabled this "
+"feature in touch devices to increase browsing speed."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:766
+#: includes/custom-post/shortcodes-config/general.php:944
+#: includes/custom-post/shortcodes-config/general.php:2317
+msgid "Image"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:769
+msgid "Adds Image element with many styles."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:774
+#: includes/custom-post/shortcodes-config/general.php:1076
+msgid "Upload Your image"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:782
+#: includes/custom-post/shortcodes-config/loops.php:2034
+msgid "Image Width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:793
+#: includes/custom-post/shortcodes-config/general.php:1106
+#: includes/custom-post/shortcodes-config/loops.php:2051
+msgid "Image Height"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:804
+#: includes/custom-post/shortcodes-config/general.php:1123
+msgid "Image Cropping?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:807
+#: includes/custom-post/shortcodes-config/general.php:1126
+msgid ""
+"If you dont want to crop your image based on the dimensions you defined "
+"above disable this option. Only wdith will be used to give the image "
+"container max-width property."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:811
+msgid "Image Hover?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:814
+msgid ""
+"If you disable this option the image hover layer including the 'click to "
+"open in lightbox' and 'image title' will be removed from this image."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:818
+msgid "Image Circular?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:825
+msgid "Hover Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:829
+#: includes/custom-post/shortcodes-config/general.php:2299
+#: includes/custom-post/shortcodes-config/loops.php:126
+msgid "Style 1"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:830
+#: includes/custom-post/shortcodes-config/general.php:2300
+#: includes/custom-post/shortcodes-config/loops.php:127
+msgid "Style 2"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:836
+#: includes/framework/metaboxes/metabox-portfolios.php:194
+msgid "Custom URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:839
+msgid ""
+"use this option if you want to link to a webpage instead of 'click to open "
+"in lightbox'"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:843
+msgid "Custom LightBox URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:846
+msgid ""
+"If you want to load custom image, video in lightbox then fill this form with "
+"the URL of the image or video(e.g. youtube, vimeo)'"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:850
+msgid "Lightbox iFrame Mode"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:853
+msgid ""
+"If you are using a custom ligthbox url and the content you would like to "
+"show is webpage, google maps or flash content, enable this option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:857
+msgid "Custom URL Target"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:865
+#: includes/custom-post/shortcodes-config/general.php:1182
+#: includes/custom-post/shortcodes-config/general.php:1856
+#: includes/custom-post/shortcodes-config/typography.php:267
+#: includes/custom-post/shortcodes-config/typography.php:488
+msgid "Align"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:877
+msgid "Lightbox Group rel"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:916
+msgid "Image Box"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:919
+msgid "A custom box with image and content."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:924
+msgid "Box Title"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:932
+msgid "Box Description"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:936
+msgid "This field accepts HTML tags."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:940
+msgid "Media Type"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:945
+msgid "Video"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:951
+msgid "Autoplay?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:964
+#: includes/custom-post/shortcodes-config/general.php:981
+msgid "Video Host?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:968
+msgid "Self Hosted"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:969
+msgid "Social Hosted"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:985
+msgid "Youtube"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:986
+msgid "Vimeo"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:998
+#: includes/custom-post/shortcodes-config/general.php:1011
+msgid "Video ID?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1024
+msgid "Background Video (.MP4)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1027
+msgid ""
+"Upload your video with .MP4 extension. (Compatibility for Safari and IE9)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1037
+msgid "Background Video (.WebM)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1040
+msgid ""
+"Upload your video with .WebM extension. (Compatibility for Firefox4, Opera, "
+"and Chrome)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1050
+msgid "Background Video (.OGV)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1053
+msgid "Upload preview image for mobile devices"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1063
+msgid "Preview Image"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1089
+msgid "Box Width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1138
+msgid "Image Link?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1142
+msgid "Lightbox"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1143
+msgid "Url"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1155
+msgid "Link (optional)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1168
+msgid "URL Target"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1204
+msgid "If left blank no border will be added."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1209
+#: includes/custom-post/shortcodes-config/general.php:2004
+#: includes/custom-post/shortcodes-config/typography.php:182
+#: includes/custom-post/shortcodes-config/typography.php:387
+msgid "Text Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1212
+#: includes/custom-post/shortcodes-config/general.php:1219
+msgid "This option will apply to title and description"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1216
+#: includes/custom-post/shortcodes-config/general.php:2501
+#: includes/custom-post/shortcodes-config/general.php:2803
+msgid "Title Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1223
+msgid "Title Text Transform"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1227
+#: includes/custom-post/shortcodes-config/general.php:1241
+#: includes/custom-post/shortcodes-config/general.php:2038
+#: includes/custom-post/shortcodes-config/general.php:2059
+#: includes/custom-post/shortcodes-config/general.php:2948
+#: includes/custom-post/shortcodes-config/typography.php:193
+#: includes/custom-post/shortcodes-config/typography.php:208
+#: includes/custom-post/shortcodes-config/typography.php:439
+msgid "Default"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1229
+#: includes/custom-post/shortcodes-config/general.php:2061
+#: includes/custom-post/shortcodes-config/typography.php:210
+msgid "Uppercase"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1230
+#: includes/custom-post/shortcodes-config/general.php:2062
+#: includes/custom-post/shortcodes-config/typography.php:211
+msgid "Lowercase"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1231
+#: includes/custom-post/shortcodes-config/general.php:2063
+#: includes/custom-post/shortcodes-config/typography.php:212
+msgid "Capitalize"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1237
+msgid "Title Font Weight"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1242
+#: includes/custom-post/shortcodes-config/general.php:2039
+#: includes/custom-post/shortcodes-config/general.php:2949
+#: includes/custom-post/shortcodes-config/typography.php:194
+#: includes/custom-post/shortcodes-config/typography.php:441
+#: includes/framework/metaboxes/metabox-skinning.php:475
+msgid "Semi Bold"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1243
+#: includes/custom-post/shortcodes-config/general.php:2040
+#: includes/custom-post/shortcodes-config/general.php:2950
+#: includes/custom-post/shortcodes-config/typography.php:195
+#: includes/custom-post/shortcodes-config/typography.php:442
+#: includes/framework/metaboxes/metabox-skinning.php:476
+msgid "Bold"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1244
+#: includes/custom-post/shortcodes-config/general.php:2041
+#: includes/custom-post/shortcodes-config/general.php:2951
+#: includes/custom-post/shortcodes-config/typography.php:196
+#: includes/custom-post/shortcodes-config/typography.php:443
+#: includes/framework/metaboxes/metabox-skinning.php:477
+msgid "Bolder"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1245
+#: includes/custom-post/shortcodes-config/general.php:2042
+#: includes/custom-post/shortcodes-config/general.php:2952
+#: includes/custom-post/shortcodes-config/typography.php:197
+#: includes/custom-post/shortcodes-config/typography.php:444
+#: includes/framework/metaboxes/metabox-skinning.php:478
+msgid "Normal"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1246
+#: includes/custom-post/shortcodes-config/general.php:2043
+#: includes/custom-post/shortcodes-config/general.php:2953
+#: includes/custom-post/shortcodes-config/social.php:873
+#: includes/custom-post/shortcodes-config/typography.php:198
+#: includes/custom-post/shortcodes-config/typography.php:445
+#: includes/framework/metaboxes/metabox-pages.php:96
+#: includes/framework/metaboxes/metabox-skinning.php:479
+#: includes/framework/metaboxes/metabox-skinning.php:502
+msgid "Light"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1258
+msgid "Rounded Corners?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1609
+msgid "Button"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1613
+msgid "Powerful & versatile button shortcode"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1618
+#: includes/custom-post/shortcodes-config/general.php:2121
+msgid "Button Text"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1626
+#: includes/custom-post/shortcodes-config/loops.php:13
+#: includes/custom-post/shortcodes-config/loops.php:122
+#: includes/custom-post/shortcodes-config/loops.php:413
+#: includes/custom-post/shortcodes-config/loops.php:707
+#: includes/custom-post/shortcodes-config/loops.php:806
+#: includes/custom-post/shortcodes-config/loops.php:1149
+#: includes/custom-post/shortcodes-config/loops.php:1729
+#: includes/custom-post/shortcodes-config/loops.php:2281
+#: includes/custom-post/shortcodes-config/slideshows.php:882
+#: includes/custom-post/shortcodes-config/social.php:12
+#: includes/custom-post/shortcodes-config/typography.php:69
+msgid "Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1643
+#: includes/custom-post/shortcodes-config/typography.php:83
+msgid "Corner style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1650
+#: includes/custom-post/shortcodes-config/typography.php:90
+msgid "How will your button corners look like?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1665
+msgid "Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1678
+msgid "display"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1691
+#: includes/custom-post/shortcodes-config/general.php:2154
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1706
+msgid "Button Background Color on hover"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1719
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1734
+msgid "font size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1744
+msgid "Underline Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1747
+#: includes/custom-post/shortcodes-config/general.php:1761
+#: includes/custom-post/shortcodes-config/general.php:1778
+#: includes/custom-post/shortcodes-config/general.php:1811
+#: includes/custom-post/shortcodes-config/general.php:2519
+#: includes/custom-post/shortcodes-config/general.php:2527
+msgid "This option is for outline style."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1758
+msgid "Outline Button Skin"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1775
+msgid "Outline Button Hover Text"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1790
+msgid "Outline Button Border Width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1808
+msgid "Nudge Button Skin"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1821
+#: includes/custom-post/shortcodes-config/general.php:2324
+#: includes/custom-post/shortcodes-config/general.php:2967
+#: includes/custom-post/shortcodes-config/general.php:3416
+#: includes/custom-post/shortcodes-config/social.php:316
+msgid "Add Icon Class Name"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1840
+#: includes/custom-post/shortcodes-config/general.php:2139
+msgid "Button URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1847
+#: includes/custom-post/shortcodes-config/loops.php:1122
+msgid "Target"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1869
+msgid "Button ID"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1872
+msgid ""
+"If your want to use id for this button to refer it in your custom JS, fill "
+"this textbox."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1887
+msgid "Infinite Animations"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1916
+#: includes/custom-post/shortcodes-config/general.php:2827
+#: includes/custom-post/shortcodes-config/general.php:3036
+#: includes/custom-post/shortcodes-config/general.php:3530
+#: includes/custom-post/shortcodes-config/loops.php:95
+#: includes/custom-post/shortcodes-config/loops.php:397
+#: includes/custom-post/shortcodes-config/loops.php:692
+#: includes/custom-post/shortcodes-config/loops.php:791
+#: includes/custom-post/shortcodes-config/loops.php:1133
+#: includes/custom-post/shortcodes-config/loops.php:1641
+#: includes/custom-post/shortcodes-config/loops.php:2250
+#: includes/custom-post/shortcodes-config/loops.php:2530
+#: includes/custom-post/shortcodes-config/slideshows.php:1179
+#: includes/custom-post/shortcodes-config/social.php:279
+#: includes/custom-post/shortcodes-config/typography.php:300
+#: includes/custom-post/shortcodes-config/typography.php:361
+#: includes/custom-post/shortcodes-config/typography.php:511
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in Custom CSS Shortcode or "
+"Masterkey Custom CSS option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1924
+msgid "Call to Action"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1928
+msgid "Callout box for important infos."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1932
+#: includes/custom-post/shortcodes-config/general.php:2295
+msgid "Box Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1944
+msgid "Layout Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1956
+msgid "Box Border Width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1967
+msgid "Button Border Width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:1991
+msgid "Box Border Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2017
+#: includes/custom-post/shortcodes-config/typography.php:160
+#: includes/custom-post/shortcodes-config/typography.php:413
+msgid "Font Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2034
+#: includes/custom-post/shortcodes-config/general.php:2944
+#: includes/custom-post/shortcodes-config/typography.php:189
+#: includes/custom-post/shortcodes-config/typography.php:435
+msgid "Font Weight"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2055
+#: includes/custom-post/shortcodes-config/typography.php:204
+msgid "Text Transform"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2075
+msgid "Content Text"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2082
+msgid "Content Text field 2"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2095
+msgid "Content Text field 3"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2098
+msgid "color of this text field will be the theme color "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2108
+msgid "Content Text field 4"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2123
+msgid "Donate Now"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2128
+msgid "Button Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2147
+msgid "Button Skin"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2161
+msgid "Hover State Skin"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2164
+msgid "This option is for Text and icon colors."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2287
+msgid "Icon Box"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2291
+msgid "Powerful & versatile Icon Boxes."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2301
+msgid "Style 3"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2302
+msgid "Style 4"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2303
+msgid "Style 5"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2304
+msgid "Style 6"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2305
+msgid "Style 7"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2306
+msgid "Style 8"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2307
+msgid "Style 9"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2313
+msgid "Icon Type"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2316
+msgid "Icon"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2338
+msgid "Icon Image"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2352
+msgid "Icon Container Frame?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2355
+msgid ""
+"If disabed, icon frame will be removed and box background color will be "
+"given to icon color. This option only works for Style 7."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2365
+msgid "Icon Container Circle?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2368
+msgid "If you disable this option the icon container will not be rounded."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2372
+msgid "Icon Align"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2378
+msgid "Top (Style7)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2387
+msgid ""
+"Please note that this option only works with Style 2 and 7. Top option only "
+"works for style 7."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2391
+msgid "Icon Size (Style 7 only)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2394
+msgid "Small"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2395
+msgid "Medium (48px)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2396
+msgid "Large (64px)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2398
+#: includes/custom-post/shortcodes-config/general.php:2415
+#: includes/custom-post/shortcodes-config/general.php:2432
+#: includes/custom-post/shortcodes-config/general.php:2448
+msgid "Please note that this option will not work for image type icon."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2408
+msgid " border width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2425
+msgid " border radius"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2442
+msgid " box shadow"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2467
+#: includes/custom-post/shortcodes-config/general.php:2994
+#: includes/custom-post/shortcodes-config/loops.php:649
+#: includes/framework/metaboxes/metabox-cause.php:25
+#: includes/framework/metaboxes/metabox-employee.php:24
+#: includes/plugins-config/wp-nav-custom-walker.php:304
+msgid "Description"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2470
+#: includes/custom-post/shortcodes-config/typography.php:18
+msgid "Enter your content."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2475
+msgid "Read More Text"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2483
+msgid "Read More URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2493
+msgid "Icon Skin"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2496
+msgid ""
+"Icon color for style 1, style 2, style 3, style 5 means the icon color. For "
+"style 4, style 6 and style 7 icon frame fill color."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2504
+msgid "Optionally you can modify Title color inside this shortcode."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2509
+msgid "Paragraph Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2512
+msgid "Optionally you can modify text color inside this shortcode."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2516
+msgid "Button Skin Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2524
+msgid "Button Hover Text Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2532
+msgid "Paragraph Text Line Height"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2764
+msgid "Skill Meter"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2767
+msgid "Show skills in bars by percent."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2775
+msgid "What skill are you demonstrating?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2780
+#: includes/custom-post/shortcodes-config/general.php:2846
+msgid "Percent"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2787
+msgid "How many percent would you like to show from this skill?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2792
+msgid "Progress Bar Height?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2810
+msgid "Progress Bar Background Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2817
+msgid "Track Bar Background Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2837
+msgid "Chart"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2841
+msgid "Powerful & versatile Chart element."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2857
+msgid "Bar Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2860
+msgid "The color of the circular bar."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2864
+msgid "Track Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2867
+msgid "The color of the track for the bar."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2871
+msgid "Line Width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2878
+msgid "Width of the bar line."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2882
+msgid "Bar Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2889
+msgid "The Diameter of the bar."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2893
+msgid "Content"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2901
+msgid ""
+"The content inside the bar. If you choose icon, you should select your icon "
+"from below list. if you have selected custom text, then you should fill out "
+"the 'custom text' option below."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2906
+msgid "Icon Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2925
+#: includes/custom-post/shortcodes-config/general.php:3001
+#: includes/custom-post/shortcodes-config/slideshows.php:921
+msgid "Font Size?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2981
+msgid "Custom Text"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:2984
+#: includes/custom-post/shortcodes-config/general.php:2997
+msgid "Description will appear below each chart."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3019
+msgid "Description Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3022
+msgid "The color of the description."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3243
+msgid "Milestones"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3247
+msgid "Milestone numbers to show statistics."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3251
+#: includes/custom-post/shortcodes-config/general.php:3403
+msgid "Content Below Numbers?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3262
+#: includes/custom-post/shortcodes-config/slideshows.php:914
+#: includes/custom-post/shortcodes-config/typography.php:231
+#: includes/custom-post/shortcodes-config/typography.php:473
+msgid "Font Family"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3265
+#: includes/custom-post/shortcodes-config/slideshows.php:917
+#: includes/custom-post/shortcodes-config/typography.php:234
+#: includes/custom-post/shortcodes-config/typography.php:476
+msgid ""
+"You can choose a font for this shortcode, however using non-safe fonts can "
+"affect page load and performance."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3270
+msgid "Element width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3276
+#: includes/custom-post/shortcodes-config/general.php:3292
+#: includes/custom-post/shortcodes-config/general.php:3302
+#: includes/custom-post/shortcodes-config/general.php:3309
+#: includes/custom-post/shortcodes-config/general.php:3366
+msgid "Please choose in which number it should start."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3286
+msgid "Element height"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3296
+msgid "Element Radius"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3306
+msgid "box shadow"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3313
+msgid "milestone background color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3320
+msgid "milestone Border color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3334
+msgid "milestone Border Width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3348
+msgid "Border style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3351
+msgid "solid"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3352
+msgid "dotted"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3353
+msgid "none"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3359
+msgid "Number Start at"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3370
+msgid "Number Stop at"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3377
+msgid "Please choose in which number it should Stop."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3381
+msgid "Speed"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3388
+msgid "Speed of the animation from start to stop in milliseconds."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3392
+msgid "Number Text Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3411
+msgid "Using icon or text would you prefer to represent this milestone?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3429
+msgid "Icon Size?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3433
+msgid "16px"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3434
+msgid "32px"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3435
+msgid "48px"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3436
+msgid "64px"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3437
+msgid "128px"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3450
+msgid "Text Below Numbers"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3464
+msgid "Number Suffix"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3477
+msgid "Number Suffix Text Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3495
+msgid "Text Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3512
+msgid "Skin color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:3519
+msgid "Text/Icon Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4132
+msgid "Event Countdown"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4136
+msgid "Countdown module for your events."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4139
+msgid "countdown style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4142
+msgid "style 1"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4143
+msgid "style 2"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4144
+msgid "style 3"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4145
+msgid "style 4"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4146
+msgid "style 5"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4151
+msgid "Swith layout left to right"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4154
+msgid "counter on left"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4155
+msgid "counter on right"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4167
+msgid "Upcoming Event Date"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4170
+msgid ""
+"Please fill this field with expect date. eg : 12/24/2015 12:00:00 => month/"
+"day/year hour:minute:second"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4174
+msgid "UTC Timezone"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4239
+msgid "border width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4253
+msgid "border color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4268
+msgid "Days bg color Color?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4281
+msgid "Hours bg color Color?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4294
+msgid "Minutes bg color Color?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4307
+msgid "Seconds bg color Color?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4320
+msgid "upcoming event title?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4334
+msgid "upcoming event discription?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4347
+msgid "upcoming event button url?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4361
+msgid "upcoming event button text?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4386
+msgid "Widgetized Sidebar"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4389
+msgid "Place Widgetized sidebar"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4390
+msgid "Structure"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4394
+msgid "Sidebar"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4396
+msgid "Select the widget area to be shown in this sidebar."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/general.php:4403
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your CSS file."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:4
+msgid "Pricing Table"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:7
+msgid "Shows Pricing table Posts."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:8
+#: includes/custom-post/shortcodes-config/loops.php:105
+#: includes/custom-post/shortcodes-config/loops.php:408
+#: includes/custom-post/shortcodes-config/loops.php:702
+#: includes/custom-post/shortcodes-config/loops.php:801
+#: includes/custom-post/shortcodes-config/loops.php:1144
+#: includes/custom-post/shortcodes-config/loops.php:1725
+#: includes/custom-post/shortcodes-config/loops.php:2276
+msgid "Loops"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:23
+#: includes/custom-post/shortcodes-config/social.php:22
+#: includes/custom-post/shortcodes-config/social.php:869
+msgid "Skin"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:33
+msgid "Pricing Background"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:47
+msgid "Offers"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:50
+msgid ""
+"Please add your offers text. Note : List of offers must be an unordered "
+"list. If you dont need offers list, leave this textarea empty. The number of "
+"the list items should match the number of your pricing items list as well."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:54
+msgid "How Many Tables?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:61
+msgid "How many pricing tables would you like to view?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:65
+msgid "Tables"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:73
+#: includes/custom-post/shortcodes-config/loops.php:361
+#: includes/custom-post/shortcodes-config/loops.php:656
+#: includes/custom-post/shortcodes-config/loops.php:1048
+#: includes/custom-post/shortcodes-config/loops.php:1620
+#: includes/custom-post/shortcodes-config/loops.php:2228
+#: includes/custom-post/shortcodes-config/loops.php:2486
+#: includes/custom-post/shortcodes-config/slideshows.php:1137
+#: woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:74
+#: includes/custom-post/shortcodes-config/loops.php:362
+#: includes/custom-post/shortcodes-config/loops.php:657
+#: includes/custom-post/shortcodes-config/loops.php:1049
+#: includes/custom-post/shortcodes-config/loops.php:1621
+#: includes/custom-post/shortcodes-config/loops.php:2229
+#: includes/custom-post/shortcodes-config/loops.php:2487
+#: includes/custom-post/shortcodes-config/slideshows.php:1138
+msgid ""
+"Designates the ascending or descending order of the 'orderby' parameter."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:77
+#: includes/custom-post/shortcodes-config/loops.php:365
+#: includes/custom-post/shortcodes-config/loops.php:660
+#: includes/custom-post/shortcodes-config/loops.php:1052
+#: includes/custom-post/shortcodes-config/loops.php:1624
+#: includes/custom-post/shortcodes-config/loops.php:2232
+#: includes/custom-post/shortcodes-config/loops.php:2490
+#: includes/custom-post/shortcodes-config/slideshows.php:1141
+msgid "DESC (descending order)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:78
+#: includes/custom-post/shortcodes-config/loops.php:366
+#: includes/custom-post/shortcodes-config/loops.php:661
+#: includes/custom-post/shortcodes-config/loops.php:1053
+#: includes/custom-post/shortcodes-config/loops.php:1625
+#: includes/custom-post/shortcodes-config/loops.php:2233
+#: includes/custom-post/shortcodes-config/loops.php:2491
+#: includes/custom-post/shortcodes-config/slideshows.php:1142
+msgid "ASC (ascending order)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:83
+#: includes/custom-post/shortcodes-config/loops.php:372
+#: includes/custom-post/shortcodes-config/loops.php:667
+#: includes/custom-post/shortcodes-config/loops.php:1058
+#: includes/custom-post/shortcodes-config/loops.php:1630
+#: includes/custom-post/shortcodes-config/loops.php:2238
+#: includes/custom-post/shortcodes-config/loops.php:2479
+#: includes/custom-post/shortcodes-config/slideshows.php:1147
+msgid "Orderby"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:84
+msgid "Sort retrieved pricing items by parameter."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:102
+msgid "Employees"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:106
+msgid "Shows Employees posts in multiple styles."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:129
+msgid "team hover styles"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:133
+#: includes/custom-post/shortcodes-config/loops.php:489
+#: includes/custom-post/shortcodes-config/loops.php:810
+msgid "Column"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:140
+#: includes/custom-post/shortcodes-config/loops.php:503
+msgid "Defines how many column to be in one row."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:144
+#: includes/custom-post/shortcodes-config/loops.php:507
+msgid "Image Width Dimension"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:151
+#: includes/custom-post/shortcodes-config/loops.php:162
+msgid ""
+"This value wil be applied to employee image width & height. Be infomed "
+"social network icons will not be displayed in image size less than 200px."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:155
+#: includes/custom-post/shortcodes-config/loops.php:525
+msgid "Image height Dimension"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:173
+msgid ""
+"How many Employees you would like to show? -1 will means whatever you have "
+"chosen in wordpress => reading => posts per page option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:177
+msgid "Select specific Employees"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:185
+#: includes/custom-post/shortcodes-config/loops.php:638
+#: includes/custom-post/shortcodes-config/loops.php:1454
+#: includes/custom-post/shortcodes-config/loops.php:2136
+msgid "Offset"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:192
+#: includes/custom-post/shortcodes-config/loops.php:645
+#: includes/custom-post/shortcodes-config/loops.php:1461
+#: includes/custom-post/shortcodes-config/loops.php:2143
+msgid ""
+"Number of post to displace or pass over, it means based on your order of the "
+"loop, this number will define how many posts to pass over and start from the "
+"nth number of the offset."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:196
+#: includes/custom-post/shortcodes-config/loops.php:886
+#: includes/custom-post/shortcodes-config/loops.php:1185
+#: includes/custom-post/shortcodes-config/loops.php:1796
+#: includes/custom-post/shortcodes-config/loops.php:2307
+#: includes/custom-post/shortcodes-config/slideshows.php:980
+msgid "scroller"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:199
+#: includes/custom-post/shortcodes-config/loops.php:894
+#: includes/custom-post/shortcodes-config/loops.php:1192
+#: includes/custom-post/shortcodes-config/loops.php:1804
+#: includes/custom-post/shortcodes-config/loops.php:2310
+#: includes/custom-post/shortcodes-config/slideshows.php:983
+msgid "put loop scroller on or off"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:204
+#: includes/custom-post/shortcodes-config/loops.php:898
+#: includes/custom-post/shortcodes-config/loops.php:1206
+#: includes/custom-post/shortcodes-config/loops.php:1819
+#: includes/custom-post/shortcodes-config/loops.php:2315
+#: includes/custom-post/shortcodes-config/slideshows.php:988
+msgid "Auto Scroll"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:207
+#: includes/custom-post/shortcodes-config/loops.php:901
+#: includes/custom-post/shortcodes-config/loops.php:1209
+#: includes/custom-post/shortcodes-config/loops.php:1822
+#: includes/custom-post/shortcodes-config/loops.php:2318
+#: includes/custom-post/shortcodes-config/slideshows.php:991
+msgid "Auto scroll on or off"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:218
+#: includes/custom-post/shortcodes-config/loops.php:912
+#: includes/custom-post/shortcodes-config/loops.php:1220
+#: includes/custom-post/shortcodes-config/loops.php:1833
+#: includes/custom-post/shortcodes-config/loops.php:2329
+#: includes/custom-post/shortcodes-config/slideshows.php:1002
+msgid " Scroller navigation"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:221
+#: includes/custom-post/shortcodes-config/loops.php:915
+#: includes/custom-post/shortcodes-config/loops.php:1223
+#: includes/custom-post/shortcodes-config/loops.php:1836
+#: includes/custom-post/shortcodes-config/loops.php:2332
+#: includes/custom-post/shortcodes-config/slideshows.php:1005
+msgid " scroll navigation on or off"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:232
+#: includes/custom-post/shortcodes-config/loops.php:926
+#: includes/custom-post/shortcodes-config/loops.php:1234
+#: includes/custom-post/shortcodes-config/loops.php:1847
+#: includes/custom-post/shortcodes-config/loops.php:2343
+#: includes/custom-post/shortcodes-config/slideshows.php:1016
+msgid " Scroller item loop"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:235
+#: includes/custom-post/shortcodes-config/loops.php:929
+#: includes/custom-post/shortcodes-config/loops.php:1237
+#: includes/custom-post/shortcodes-config/loops.php:1850
+#: includes/custom-post/shortcodes-config/loops.php:2346
+#: includes/custom-post/shortcodes-config/slideshows.php:1019
+msgid " scroller item  on or off"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:246
+#: includes/custom-post/shortcodes-config/loops.php:940
+#: includes/custom-post/shortcodes-config/loops.php:1248
+#: includes/custom-post/shortcodes-config/loops.php:1861
+#: includes/custom-post/shortcodes-config/loops.php:2357
+#: includes/custom-post/shortcodes-config/slideshows.php:1030
+msgid " Scroller autoplay speed"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:253
+#: includes/custom-post/shortcodes-config/loops.php:947
+#: includes/custom-post/shortcodes-config/loops.php:1255
+#: includes/custom-post/shortcodes-config/loops.php:1868
+#: includes/custom-post/shortcodes-config/loops.php:2364
+#: includes/custom-post/shortcodes-config/slideshows.php:1037
+msgid " scroller autoplay speed"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:264
+#: includes/custom-post/shortcodes-config/loops.php:958
+#: includes/custom-post/shortcodes-config/loops.php:1266
+#: includes/custom-post/shortcodes-config/loops.php:1879
+#: includes/custom-post/shortcodes-config/loops.php:2375
+#: includes/custom-post/shortcodes-config/slideshows.php:1048
+msgid " Scroller autoplay Delay"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:271
+#: includes/custom-post/shortcodes-config/loops.php:965
+#: includes/custom-post/shortcodes-config/loops.php:1273
+#: includes/custom-post/shortcodes-config/loops.php:1886
+#: includes/custom-post/shortcodes-config/loops.php:2382
+#: includes/custom-post/shortcodes-config/slideshows.php:1055
+msgid "Scroller autoplay Delay per slider"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:282
+#: includes/custom-post/shortcodes-config/loops.php:976
+#: includes/custom-post/shortcodes-config/loops.php:1284
+#: includes/custom-post/shortcodes-config/loops.php:1897
+#: includes/custom-post/shortcodes-config/loops.php:2393
+#: includes/custom-post/shortcodes-config/slideshows.php:1066
+msgid " Scroller items gutter space"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:289
+#: includes/custom-post/shortcodes-config/loops.php:983
+#: includes/custom-post/shortcodes-config/loops.php:1291
+#: includes/custom-post/shortcodes-config/loops.php:1904
+#: includes/custom-post/shortcodes-config/loops.php:2400
+#: includes/custom-post/shortcodes-config/slideshows.php:1073
+msgid ""
+"Scroller items gutter space, defualt is 30px you can set 0 to 100px but not "
+"in -ve value"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:300
+#: includes/custom-post/shortcodes-config/loops.php:994
+#: includes/custom-post/shortcodes-config/loops.php:1302
+#: includes/custom-post/shortcodes-config/loops.php:1915
+#: includes/custom-post/shortcodes-config/loops.php:2411
+#: includes/custom-post/shortcodes-config/slideshows.php:1084
+msgid " Scroller items for desktop above 1025px"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:307
+#: includes/custom-post/shortcodes-config/loops.php:1001
+#: includes/custom-post/shortcodes-config/loops.php:1309
+#: includes/custom-post/shortcodes-config/loops.php:1922
+#: includes/custom-post/shortcodes-config/loops.php:2418
+#: includes/custom-post/shortcodes-config/slideshows.php:1091
+msgid ""
+"Scroller items for desktop above 1025px, adjust items according to your "
+"layout"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:318
+#: includes/custom-post/shortcodes-config/loops.php:1012
+#: includes/custom-post/shortcodes-config/loops.php:1320
+#: includes/custom-post/shortcodes-config/loops.php:1933
+#: includes/custom-post/shortcodes-config/loops.php:2429
+#: includes/custom-post/shortcodes-config/slideshows.php:1102
+msgid " Scroller items for tabs landscape from 960px to 1024px"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:325
+#: includes/custom-post/shortcodes-config/loops.php:343
+#: includes/custom-post/shortcodes-config/loops.php:1019
+#: includes/custom-post/shortcodes-config/loops.php:1037
+#: includes/custom-post/shortcodes-config/loops.php:1327
+#: includes/custom-post/shortcodes-config/loops.php:1345
+#: includes/custom-post/shortcodes-config/loops.php:1940
+#: includes/custom-post/shortcodes-config/loops.php:1958
+#: includes/custom-post/shortcodes-config/loops.php:2436
+#: includes/custom-post/shortcodes-config/loops.php:2454
+#: includes/custom-post/shortcodes-config/slideshows.php:1109
+#: includes/custom-post/shortcodes-config/slideshows.php:1127
+msgid ""
+"Scroller items for tabs landscape from 960px to 1024px, adjust items "
+"according to your layout"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:336
+#: includes/custom-post/shortcodes-config/loops.php:1030
+#: includes/custom-post/shortcodes-config/loops.php:1338
+#: includes/custom-post/shortcodes-config/loops.php:1951
+#: includes/custom-post/shortcodes-config/loops.php:2447
+#: includes/custom-post/shortcodes-config/slideshows.php:1120
+msgid " Scroller items for tabs from 768px to 959px"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:373
+msgid "Sort retrieved employee items by parameter."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:380
+msgid "Employee Image Stretchability"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:383
+msgid "Enabling this option will set employee image cover the whole grid area."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:405
+msgid "Causes"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:409
+msgid "Shows Causes posts in multiple styles."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:417
+msgid "grid"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:419
+msgid "Column Based"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:426
+msgid "grid elements "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:438
+msgid "items to show per row on desktop "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:442
+msgid "grid elements tabs landscape "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:454
+msgid "items to show per row on tab landscape recommented is 3 items "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:458
+msgid "grid elements tab "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:470
+msgid "items to show per row on tabs recommended id 2 items "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:474
+msgid "grid elements gutter space "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:485
+msgid "space between items "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:521
+#: includes/custom-post/shortcodes-config/loops.php:539
+msgid ""
+"This value wil be applied to cause image width & height. Be infomed social "
+"network icons will not be displayed in image size less than 200px."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:543
+msgid "slider navigation "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:546
+#: includes/custom-post/shortcodes-config/loops.php:562
+#: includes/custom-post/shortcodes-config/loops.php:1189
+#: includes/custom-post/shortcodes/helpme_employees.php:222
+#: includes/custom-post/shortcodes/helpme_employees.php:228
+#: includes/custom-post/shortcodes/helpme_employees.php:231
+#: includes/custom-post/shortcodes/helpme_employees.php:234
+#: includes/custom-post/shortcodes/helpme_employees.php:237
+#: includes/custom-post/shortcodes/helpme_employees.php:240
+#: includes/custom-post/shortcodes/helpme_employees.php:243
+#: includes/custom-post/shortcodes/helpme_employees.php:259
+#: includes/custom-post/shortcodes/helpme_employees.php:265
+#: includes/custom-post/shortcodes/helpme_employees.php:268
+#: includes/custom-post/shortcodes/helpme_employees.php:271
+#: includes/custom-post/shortcodes/helpme_employees.php:274
+#: includes/custom-post/shortcodes/helpme_employees.php:277
+#: includes/custom-post/shortcodes/helpme_employees.php:280
+msgid "On"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:547
+#: includes/custom-post/shortcodes-config/loops.php:563
+#: includes/custom-post/shortcodes-config/loops.php:1188
+msgid "Off"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:555
+#: includes/custom-post/shortcodes-config/loops.php:571
+msgid "slider navigation prev and next buttons "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:559
+msgid "item loop"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:575
+msgid "Autoplay"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:584
+msgid "If you enable this option grids will be horizontally scrolled."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:588
+msgid "Auto play speed "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:599
+msgid "autoplay speed "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:603
+msgid "Auto play Delay per slide "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:614
+msgid "delay per slider"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:625
+msgid ""
+"How many Causes you would like to show? -1 will means whatever you have "
+"chosen in wordpress => reading => posts per page option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:630
+msgid "Select specific Causes"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:652
+msgid "If you dont want to show Causes description disable this option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:668
+msgid "Sort retrieved cause items by parameter."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:675
+msgid "Cause Image Stretchability"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:678
+msgid "Enabling this option will set cause image cover the whole grid area."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:699
+msgid "Events"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:703
+msgid "Events element shortcode."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:711
+msgid "column"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:712
+msgid "thumb"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:719
+msgid "Desktop Columns"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:732
+#: includes/custom-post/shortcodes-config/loops.php:749
+msgid ""
+"How many column in a row recommended is 3 for full width and 2 with sidebar."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:736
+msgid "Tablet Columns"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:753
+msgid "image width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:763
+#: includes/custom-post/shortcodes-config/loops.php:777
+msgid "image width."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:767
+msgid "image height"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:781
+msgid "Events per page"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:784
+msgid "number of events per page."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:798
+msgid "Clients"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:802
+msgid "Shows Clients posts in multiple styles."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:807
+msgid "Choose clients loop style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:817
+#: includes/custom-post/shortcodes-config/loops.php:1388
+#: includes/custom-post/shortcodes-config/loops.php:1984
+#: includes/custom-post/shortcodes-config/loops.php:2498
+msgid "How many Columns?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:824
+msgid ""
+"This option defines how many columns will be set in one row. This option "
+"only works for column style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:834
+msgid "Client Item height"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:841
+msgid ""
+"Defines the client item height. please note that this option only works for "
+"column style."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:858
+msgid ""
+"How many Clients you would like to show? -1 will means whatever you have "
+"chosen in wordpress => reading => posts per page option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:878
+msgid "Select specific Clients"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1059
+#: includes/custom-post/shortcodes-config/slideshows.php:1148
+msgid "Sort retrieved client items by parameter."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1126
+msgid "Target for the links."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1141
+msgid "Blog"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1145
+msgid "Blog loops are here."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1150
+msgid "please select which blog loop style you would like to use."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1153
+#: includes/custom-post/shortcodes-config/loops.php:1747
+#: includes/custom-post/shortcodes-config/loops.php:2285
+msgid "Classic"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1156
+msgid "Tile"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1158
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1356
+msgid "Author Thumbnail (Only for Tile Style)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1359
+msgid ""
+"Using this option you can disable/enable author avatar from blog loop tile "
+"style."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1395
+#: includes/custom-post/shortcodes-config/loops.php:2505
+msgid "This option defines how many columns will be set in one row."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1406
+msgid "Images Width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1416
+msgid "Images Height"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1426
+msgid "Image Cropping."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1427
+msgid ""
+"If you have this option enabled the image will be cropped based on the image "
+"height option above and the width we dynamically calculate for the layout "
+"and column you choose. if you want to show the full size featured image "
+"disable this option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1443
+#: includes/custom-post/shortcodes-config/loops.php:2091
+msgid "How many Posts in a page?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1450
+msgid ""
+"How many Posts you would like to show? (-1 means unlimited, please note that "
+"unlimited will be overrided the limit you defined at : Wordpress Sidebar > "
+"Settings > Reading > Blog pages show at most.)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1465
+#: includes/custom-post/shortcodes-config/loops.php:2465
+msgid "Select specific Categories"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1474
+#: includes/custom-post/shortcodes-config/loops.php:2149
+msgid "Select specific Posts"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1483
+msgid "Post Meta"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1486
+msgid ""
+"If you dont want to show post meta (author and categories) disable this "
+"option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1503
+msgid "Content Type (Classic Style Only)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1504
+msgid "You can show blog full content in classic style loop."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1507
+msgid "Summry (Excerpt)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1508
+msgid "Full content"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1520
+#: includes/custom-post/shortcodes-config/loops.php:2168
+msgid "Pagination?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1523
+#: includes/custom-post/shortcodes-config/loops.php:2171
+msgid "If you dont want to have pagination for this loop disable this option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1538
+#: includes/custom-post/shortcodes-config/loops.php:2184
+msgid "Pagination Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1539
+#: includes/custom-post/shortcodes-config/loops.php:1561
+#: includes/custom-post/shortcodes-config/loops.php:2185
+msgid ""
+"please select which pagination style you would like to use on this loop."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1542
+#: includes/custom-post/shortcodes-config/loops.php:2189
+msgid "Classic Pagination Navigation"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1543
+#: includes/custom-post/shortcodes-config/loops.php:2188
+msgid "Load more button"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1560
+msgid "Thumb style colums"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1564
+msgid "One column"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1565
+msgid "Two column"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1578
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1579
+msgid ""
+"Define the length of the length of the excerpt in number of characters. Zero "
+"will disable excerpt."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1601
+#: includes/custom-post/shortcodes-config/loops.php:2103
+msgid "Sortable?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1604
+#: includes/custom-post/shortcodes-config/loops.php:2106
+msgid "If you dont want sortable filter navigation disable this option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1631
+#: includes/custom-post/shortcodes-config/loops.php:2480
+msgid "Sort retrieved Blog items by parameter."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1645
+#: includes/custom-post/shortcodes-config/loops.php:2254
+msgid "Item ID"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1722
+msgid "Portfolio"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1726
+msgid "Portfolio loops are here."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1730
+msgid "please select which Portfolio loop style you would like to use."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1736
+msgid "Standard"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1737
+msgid "Scroller"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1742
+msgid "Hover Scenarios"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1743
+msgid ""
+"This is what happens when user hovers over a portfolio item. Different "
+"animations and styles will be showed up on each scenario."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1746
+#: includes/framework/metaboxes/metabox-skinning.php:398
+msgid "Parallax"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1748
+#: includes/framework/metaboxes/metabox-skinning.php:400
+msgid "Gradient"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1749
+msgid "Zoom In"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1751
+msgid "Stroke"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1766
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1969
+msgid "How many row in one side?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1972
+msgid "One row in one slide"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1973
+msgid "Two row in one slide"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:1991
+msgid "How many columns you would like to have in one row?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2003
+msgid "gutter space"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2006
+msgid "no gutter"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2007
+msgid "with gutter"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2010
+msgid "set space between columns default is 30px, set 0 for no space"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2021
+msgid "Image Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2022
+msgid "Please note that this option will not work for Masonry option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2025
+msgid "Resize & Crop"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2026
+msgid "Original Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2027
+msgid "Large Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2028
+msgid "Medium Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2071
+msgid "Increase Quality of Image"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2074
+msgid "No Actions"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2075
+msgid "Images 2 times bigger (retina compatible)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2076
+msgid "Images 3 times bigger (fullwidth row compatible)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2078
+msgid ""
+"If you want portfolio images be retina compatible or you just want to use it "
+"in fullwidth row, you may consider increasing the image size. This option "
+"will help you define the image quality yourself."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2098
+msgid ""
+"How many Posts you would like to show? -1 will means whatever you have "
+"chosen in wordpress => reading => posts per page option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2119
+msgid "Sortable Align?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2158
+msgid "Select Specific Categories."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2161
+msgid ""
+"You will need to go to Wordpress Dashboard => Portfolios => Portfolio "
+"Categories. In the right hand find Slug column. you will need to add "
+"portfolio category slugs in this option. add comma to separate them."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2205
+msgid "Lightbox Plus Icon"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2208
+msgid ""
+"If you don't want to have lightbox feature on this portfolio loop, disable "
+"this option. This option will remove plus icon from image hover."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2213
+msgid "Permalink Arrow Icon"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2216
+msgid ""
+"If you don't need permalink button from this loop image hover, disable this "
+"option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2239
+msgid "Sort retrieved Portfolio items by parameter."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2273
+msgid "Product Loops"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2277
+msgid "Product loops are here."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2282
+msgid "please select which woocommerce loop style you would like to use."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2292
+msgid "Display"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2296
+msgid "Recent Products"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2297
+msgid "Featured Products"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2298
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2299
+msgid "Product Category"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2300
+msgid "Products on Sale"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2301
+msgid "Best Sellings Products"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2509
+msgid "How many Product?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2516
+msgid "This option defines how many producr will be set in a page."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/loops.php:2520
+msgid "Pagination"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:873
+msgid "Testimonials"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:876
+msgid "Slideshows"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:877
+msgid "Shows Testimonials in multiple styles."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:886
+msgid "Boxed Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:887
+msgid "creative"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:888
+msgid "Modern Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:901
+msgid "How many testimonial you would like to show? (-1 means unlimited)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:905
+msgid "Select specific testimonials"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:932
+msgid "Line Height?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:943
+msgid "Font Color?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:1157
+msgid "Slides animation"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:1161
+msgid "Slide"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/slideshows.php:1162
+msgid "Fade"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:4
+msgid "Social Networks"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:7
+msgid "Adds social network icons."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:8
+#: includes/custom-post/shortcodes-config/social.php:293
+#: includes/custom-post/shortcodes-config/social.php:340
+#: includes/custom-post/shortcodes-config/social.php:378
+#: includes/custom-post/shortcodes-config/social.php:621
+#: includes/custom-post/shortcodes-config/social.php:670
+#: includes/custom-post/shortcodes-config/social.php:751
+#: includes/custom-post/shortcodes-config/social.php:863
+msgid "Social"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:37
+msgid "(default: #ccc). Doesn't work with Simple Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:50
+msgid "(default: transparent). Doesn't work with Simple Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:60
+msgid "Background Hover Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:63
+msgid "(default: #232323). Doesn't work with Simple Style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:73
+msgid "Icons Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:76
+msgid "(default: #ccc)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:86
+msgid "Icons Hover Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:89
+msgid "(default: #eee)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:101
+msgid "Margin"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:108
+msgid ""
+"How much distance between icons? this margin will be applied to all "
+"directions."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:112
+msgid "Icons Align"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:125
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:128
+#: includes/custom-post/shortcodes-config/social.php:135
+#: includes/custom-post/shortcodes-config/social.php:142
+#: includes/custom-post/shortcodes-config/social.php:149
+#: includes/custom-post/shortcodes-config/social.php:156
+#: includes/custom-post/shortcodes-config/social.php:163
+#: includes/custom-post/shortcodes-config/social.php:170
+#: includes/custom-post/shortcodes-config/social.php:177
+#: includes/custom-post/shortcodes-config/social.php:184
+#: includes/custom-post/shortcodes-config/social.php:191
+#: includes/custom-post/shortcodes-config/social.php:198
+#: includes/custom-post/shortcodes-config/social.php:206
+#: includes/custom-post/shortcodes-config/social.php:216
+#: includes/custom-post/shortcodes-config/social.php:223
+#: includes/custom-post/shortcodes-config/social.php:230
+#: includes/custom-post/shortcodes-config/social.php:237
+#: includes/custom-post/shortcodes-config/social.php:244
+#: includes/custom-post/shortcodes-config/social.php:251
+#: includes/custom-post/shortcodes-config/social.php:258
+#: includes/custom-post/shortcodes-config/social.php:265
+msgid ""
+"Fill this textbox with the full URL of your corresponding social netowork. "
+"include (http://). if left blank this social network icon wont be shown."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:132
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:139
+msgid "RSS URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:146
+msgid "Instagram URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:153
+msgid "Dribbble URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:160
+msgid "Vimeo URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:167
+msgid "Spotify URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:174
+msgid "Pinterest URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:181
+msgid "Google Plus URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:188
+msgid "Linkedin URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:195
+msgid "Youtube URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:203
+msgid "Tumblr URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:213
+msgid "Behance URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:220
+msgid "WhatsApp URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:227
+msgid "qzone URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:234
+msgid "vk.com URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:241
+msgid "IMDb URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:248
+msgid "Renren URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:255
+msgid "Wechat URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:262
+msgid "Weibo URL"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:289
+msgid "Twitter Feeds"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:292
+msgid "Adds Twitter Feeds."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:297
+msgid "Twitter name"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:300
+msgid "Type in twitter profile name from which load tweets."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:304
+msgid "Tweets count"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:311
+msgid "How many recent tweets to load."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:336
+msgid "Video player"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:339
+msgid "Youtube, Vimeo,.."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:344
+msgid "Widget Title"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:351
+msgid "Video link"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:354
+msgid " Link to the video. More about supported formats at"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:354
+msgid ""
+" <a href=\"http://codex.wordpress.org/"
+"Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F\" target=\"_blank"
+"\">WordPress codex page</a>"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:376
+msgid "Google Maps"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:380
+msgid "Powerful Google Maps element."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:384
+msgid "Address : Latitude"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:391
+msgid "Address : Longitude"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:398
+msgid "Address : Full Address Text (shown in tooltip)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:454
+msgid "Upload Marker Icon"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:457
+msgid "If left blank Google Default marker will be used."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:461
+msgid "Map height"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:468
+msgid "Enter map height in pixels. Example: 200)."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:488
+msgid "Zoom"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:499
+msgid "Pan Control"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:506
+msgid "Draggable"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:513
+msgid "Zoom Control"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:520
+msgid "Map Type Control"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:527
+msgid "Scale Control"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:535
+msgid "Modify Google Maps Hue, Saturation, Lightness"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:545
+msgid "Hue"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:548
+#: includes/custom-post/shortcodes-config/social.php:561
+msgid ""
+"Sets the hue of the feature to match the hue of the color supplied. Note "
+"that the saturation and lightness of the feature is conserved, which means, "
+"the feature will not perfectly match the color supplied ."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:558
+msgid "gamma"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:571
+msgid "Saturation"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:578
+msgid ""
+"Shifts the saturation of colors by a percentage of the original value if "
+"decreasing and a percentage of the remaining value if increasing. Valid "
+"values: [-100, 100]."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:588
+msgid "Lightness"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:595
+msgid ""
+"Shifts lightness of colors by a percentage of the original value if "
+"decreasing and a percentage of the remaining value if increasing. Valid "
+"values: [-100, 100]."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:618
+msgid "Flickr Feeds"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:620
+msgid "Show your Flickr Feeds."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:625
+msgid "Flickr ID"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:628
+msgid ""
+"To find your flickID visit <a href=\"http://idgettr.com/\" target=\"_blank"
+"\">idGettr</a>. In order to use Flickr Shortcode you should first obtain an "
+"API key from <a href=\"http://www.flickr.com/services/api/misc.api_keys.html"
+"\">Flickr The App Garden</a> and update the field in Theme settings => Third "
+"Party API => Flickr API Key."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:632
+#: includes/custom-post/shortcodes-config/social.php:688
+msgid "Number of photos"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:642
+#: includes/custom-post/shortcodes-config/social.php:724
+msgid "How many photos in one row?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:646
+#: includes/custom-post/shortcodes-config/social.php:728
+msgid "2"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:647
+#: includes/custom-post/shortcodes-config/social.php:729
+msgid "3"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:648
+#: includes/custom-post/shortcodes-config/social.php:730
+msgid "4"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:649
+#: includes/custom-post/shortcodes-config/social.php:731
+msgid "5"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:650
+msgid "6"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:651
+msgid "7"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:652
+msgid "8"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:669
+msgid "Instagram Feeds"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:674
+msgid "Instagram ID"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:677
+msgid " Dont know your user id or token?  to get one."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:677
+msgid ""
+"<a href='https://instagram.com/oauth/authorize/?"
+"client_id=467ede5a6b9b48ae8e03f4e2582aeeb3&redirect_uri=http://instafeedjs."
+"com&response_type=token'>Click here</a>"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:681
+msgid "Access Token"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:698
+msgid "Sort By"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:701
+msgid "Most Recent"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:702
+msgid "Least Recent"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:703
+msgid "Most Liked"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:704
+msgid "Least Liked"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:705
+msgid "Most Commented"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:706
+msgid "Least Commented"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:713
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:716
+msgid "Thumbnail (150X150)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:717
+msgid "Low Resolution (306X306)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:718
+msgid "Standard Resolution (612X612)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:748
+msgid "Contact Form"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:750
+msgid "Adds Contact form element."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:757
+#: includes/custom-post/shortcodes-config/social.php:936
+msgid "Email"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:760
+#, php-format
+msgid ""
+"Which email would you like the contacts to be sent, if left empty emails "
+"will be sent to admin email : \"%s\""
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:840
+msgid "Show Captcha?"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:861
+msgid "Contact Info"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:864
+msgid "Adds Contact info details."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:872
+#: includes/framework/metaboxes/metabox-pages.php:97
+msgid "Dark"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:874
+#: includes/framework/metaboxes/metabox-skinning.php:503
+#: includes/plugins-config/vc-integration.php:1257
+msgid "Custom"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:876
+msgid "Choose your contact form style"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:880
+msgid "Text & Icon Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:912
+msgid "Cellphone"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:918
+msgid "Phone"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:924
+msgid "Address"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/social.php:930
+#: includes/custom-post/shortcodes/helpme_employees.php:225
+#: includes/custom-post/shortcodes/helpme_employees.php:262
+#: includes/framework/metaboxes/metabox-employee.php:40
+msgid "Website"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:4
+msgid "Text block"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:7
+#: includes/custom-post/shortcodes-config/typography.php:55
+#: includes/custom-post/shortcodes-config/typography.php:310
+#: includes/custom-post/shortcodes-config/typography.php:371
+msgid "Typography"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:9
+msgid "A block of text with WYSIWYG editor"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:15
+msgid "Text"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:22
+#: includes/custom-post/shortcodes-config/typography.php:279
+msgid "Tablet & Mobile Align."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:29
+#: includes/custom-post/shortcodes-config/typography.php:286
+msgid ""
+"In some cases your text align for text may not look good in tablet and "
+"mobile devices. you can control align for tablet portrait and all mobile "
+"devices using this option. It will be center align by default!"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:52
+msgid "Fancy Title"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:56
+msgid "Advanced headings with cool styles."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:62
+#: includes/custom-post/shortcodes-config/typography.php:380
+msgid "Content."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:79
+msgid ""
+"Please note that Alternative style will work only in page content and page "
+"sections with solid backgrounds."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:100
+msgid "Tag Name"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:110
+msgid ""
+"For SEO reasons you might need to define your titles tag names according to "
+"priority. Please note that H1 can only be used once in a page due to the SEO "
+"reasons. So try to use lower than H2 to meet SEO best practices."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:114
+msgid "Stroke Style Border Width"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:121
+msgid ""
+"Changes border thickness. Please note that this option only works for Stroke "
+"style."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:135
+msgid "Stroke Style Border Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:138
+msgid ""
+"If left blank given text color will be applied to border color. Please note "
+"that this option only works for Stroke style."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:148
+msgid "display."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:151
+msgid "block"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:152
+msgid "inline block"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:153
+msgid "inline"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:154
+msgid "table cell"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:171
+msgid "Text Line Height"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:178
+msgid ""
+"Please note that this value should be more than font size. if less than font "
+"size line height value will be 100% to prevent reading issues."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:218
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:225
+msgid "Space between each character."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:244
+#: includes/custom-post/shortcodes-config/typography.php:451
+msgid "Margin Top"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:307
+msgid "Custom heading"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:311
+msgid "custom heading Box with multiple types."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:316
+msgid "Insert your heading part1 here"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:323
+msgid "Insert your heading part2 here"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:330
+msgid "Insert your heading part3 here"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:337
+msgid "Small text below heading"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:344
+#: includes/custom-post/shortcodes-config/typography.php:351
+msgid "heading custom color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:347
+msgid ""
+"custom heading color will effect heading field 1 and 3 leave blank for "
+"default color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:354
+msgid ""
+"custom heading color will effect text bellow heading leave blank for default "
+"color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:369
+msgid "Fancy Text"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:373
+msgid "Adds title text into a highlight box."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:383
+msgid ""
+"Allowed Tags [em] [del] [i] [b] [strong] [u] [span] [small] [large] [sub] "
+"[sup]. Please note that [p] tags will be striped out."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:394
+msgid "Hightlight Background Color"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:397
+msgid ""
+"The Hightlight Background color. you can change color opacity from below "
+"option."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:401
+msgid "Hightlight Color Opacity"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:408
+msgid "The Opacity of the hightlight background"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:424
+msgid "Line Height (Important)"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:431
+msgid ""
+"Since every font family with differnt sizes need different line heights to "
+"get a nice looking highlighted titles you should set them manually. as a "
+"hint generally (font-size * 2) - 2 works in many cases, but you may need to "
+"give more space in between, so we opened your hands with this option. :) "
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:440
+msgid "Medium"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:458
+msgid "In some ocasions you may on need to define a top margin for this title."
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:462
+msgid "Margin Buttom"
+msgstr ""
+
+#: includes/custom-post/shortcodes-config/typography.php:495
+msgid "Justify"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_blog.php:186
+#: includes/custom-post/shortcodes/helpme_portfolio.php:201
+msgid "All"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_contact_form.php:25
+msgid "FULL NAME "
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_contact_form.php:26
+msgid "EMAIL"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_contact_form.php:27
+msgid "SUBMIT"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_contact_form.php:28
+msgid "SHORT MESSAGE"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_contact_form.php:29
+msgid "YOUR PHONE NUMBER"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_contact_form.php:30
+msgid "Enter Captcha"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_contact_form.php:31
+msgid "Not readable?"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_contact_form.php:32
+msgid "Change text."
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_countdown.php:6
+msgid "upcoming event"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_countdown.php:7
+msgid ""
+"Nunc commodo tellus diam, sed molestie quam ferm tuvarius Etiam finibus "
+"lorem vel interdum volutpat Su pendisse potenti Duis non sem nisi Phasellus "
+"iaculis  neque id fringilla. Sed suscipit erat egestas ante sollicitudin, "
+"quis tristique leo tristique."
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_countdown.php:8
+msgid "#"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_countdown.php:9
+msgid "View event"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_countdown.php:95
+#: includes/custom-post/shortcodes/helpme_countdown.php:114
+#: includes/custom-post/shortcodes/helpme_countdown.php:128
+#: includes/custom-post/shortcodes/helpme_countdown.php:147
+#: includes/custom-post/shortcodes/helpme_countdown.php:160
+msgid "Days"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_countdown.php:96
+#: includes/custom-post/shortcodes/helpme_countdown.php:115
+#: includes/custom-post/shortcodes/helpme_countdown.php:129
+#: includes/custom-post/shortcodes/helpme_countdown.php:148
+#: includes/custom-post/shortcodes/helpme_countdown.php:161
+msgid "Hours"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_countdown.php:97
+#: includes/custom-post/shortcodes/helpme_countdown.php:116
+#: includes/custom-post/shortcodes/helpme_countdown.php:130
+#: includes/custom-post/shortcodes/helpme_countdown.php:149
+#: includes/custom-post/shortcodes/helpme_countdown.php:162
+msgid "Minutes"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_countdown.php:98
+#: includes/custom-post/shortcodes/helpme_countdown.php:117
+#: includes/custom-post/shortcodes/helpme_countdown.php:131
+#: includes/custom-post/shortcodes/helpme_countdown.php:150
+#: includes/custom-post/shortcodes/helpme_countdown.php:163
+msgid "Seconds"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_employees.php:219
+#: includes/custom-post/shortcodes/helpme_employees.php:256
+msgid "Get In Touch With"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_products.php:174
+#: includes/custom-post/shortcodes/helpme_products.php:182
+#: includes/custom-post/shortcodes/helpme_products.php:307
+#: woocommerce/content-product.php:96
+msgid "READ MORE"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_products.php:176
+#: woocommerce/content-product.php:98
+msgid "OUT OF STOCK"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_products.php:182
+msgid "PURCHASE"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_products.php:185
+#: includes/custom-post/shortcodes/helpme_products.php:274
+#: woocommerce/content-product.php:193
+#: woocommerce/single-product/product-image.php:31
+msgid "SALE"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_products.php:277
+#: woocommerce/content-product.php:196
+msgid "FEATURED"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_products.php:313
+#: woocommerce/content-product.php:107
+msgid "Select options"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_products.php:318
+#: woocommerce/content-product.php:112
+msgid "View options"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_products.php:328
+#: woocommerce/content-product.php:122
+msgid "ADD TO CART"
+msgstr ""
+
+#: includes/custom-post/shortcodes/helpme_testimonials.php:158
+#: includes/custom-post/shortcodes/helpme_testimonials.php:181
+#: includes/custom-post/shortcodes/helpme_testimonials.php:203
+msgid ","
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-custom-menu.php:83
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-custom-menu.php:89
+msgid "Title:"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-custom-menu.php:93
+msgid "Select Menu:"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-custom-menu.php:95
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-custom-menu.php:106
+msgid "Font Weight:"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-custom-menu.php:117
+msgid "Align:"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-custom-menu.php:125
+msgid "Color:"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-custom-menu.php:129
+msgid "Hover Color:"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-login-form.php:32
+msgid "Username"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-login-form.php:33
+msgid "Password"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-login-form.php:60
+#: woocommerce/checkout/thankyou.php:28
+msgid "My Account"
+msgstr ""
+
+#: includes/custom-post/widgets/widgets-login-form.php:65
+msgid "Log Out"
+msgstr ""
+
+#: includes/demo-importer/engine/content_importer.php:162
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: includes/demo-importer/engine/content_importer.php:180
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/demo-importer/engine/content_importer.php:193
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/demo-importer/engine/content_importer.php:204
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/demo-importer/engine/content_importer.php:234
+msgid "Imported"
+msgstr ""
+
+#: includes/demo-importer/engine/content_importer.php:237
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/demo-importer/engine/content_importer.php:241
+msgid "No Title"
+msgstr ""
+
+#: includes/demo-importer/engine/index.php:67
+msgid "Install Templates"
+msgstr ""
+
+#: includes/demo-importer/engine/index.php:82
+#: includes/demo-importer/engine/index.php:101
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: includes/demo-importer/engine/index.php:83
+#: includes/demo-importer/engine/index.php:102
+msgid "Preview"
+msgstr ""
+
+#: includes/demo-importer/engine/parsers.php:42
+#: includes/demo-importer/engine/parsers.php:72
+#: includes/demo-importer/engine/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/demo-importer/engine/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/demo-importer/engine/parsers.php:84
+#: includes/demo-importer/engine/parsers.php:89
+#: includes/demo-importer/engine/parsers.php:279
+#: includes/demo-importer/engine/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:134
+#: includes/demo-importer/engine/wordpress-importer.php:143
+#: includes/demo-importer/engine/wordpress-importer.php:194
+#: includes/demo-importer/engine/wordpress-importer.php:198
+#: includes/demo-importer/engine/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:511
+#: includes/demo-importer/engine/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/demo-importer/engine/wordpress-importer.php:1130
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: includes/framework/general.php:420
+#, php-format
+msgid "%1$s's message from %2$s"
+msgstr ""
+
+#: includes/framework/general.php:421
+msgid "Site: "
+msgstr ""
+
+#: includes/framework/general.php:422
+msgid "Name: "
+msgstr ""
+
+#: includes/framework/general.php:423
+msgid "Email: "
+msgstr ""
+
+#: includes/framework/general.php:425
+msgid "Phone: "
+msgstr ""
+
+#: includes/framework/general.php:427
+msgid "Messages: "
+msgstr ""
+
+#: includes/framework/general.php:457
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: includes/framework/general.php:478
+msgid "Wrong username or password."
+msgstr ""
+
+#: includes/framework/general.php:480
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: includes/framework/general.php:497
+msgid "second"
+msgstr ""
+
+#: includes/framework/general.php:498
+msgid "minute"
+msgstr ""
+
+#: includes/framework/general.php:499
+msgid "hour"
+msgstr ""
+
+#: includes/framework/general.php:500
+msgid "day"
+msgstr ""
+
+#: includes/framework/general.php:501
+msgid "week"
+msgstr ""
+
+#: includes/framework/general.php:502
+msgid "month"
+msgstr ""
+
+#: includes/framework/general.php:503
+msgid "year"
+msgstr ""
+
+#: includes/framework/general.php:504
+msgid "decade"
+msgstr ""
+
+#: includes/framework/general.php:519
+msgid "ago"
+msgstr ""
+
+#: includes/framework/icon-library.php:877
+msgid "Theme Icon Library"
+msgstr ""
+
+#: includes/framework/icon-library.php:878
+msgid ""
+"Search and find your desired icon and paste its <strong>class name</strong> "
+"to the <strong>text field</strong> provided in shortcode options. You will "
+"need character code for custom list shortcode!"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:176
+#: includes/framework/metabox-generator.php:561
+#: includes/plugins-config/vc-integration.php:163
+msgid "Upload"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:437
+msgid "Select Option"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:517
+msgid "Header"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:520
+msgid "Page Title"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:526
+msgid "Footer"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:529
+msgid "Body"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:542
+msgid "No Image"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:545
+msgid "Upload Image"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:556
+msgid "Upload a new custom image"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:571
+msgid "Background color"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:601
+msgid "Background Fit and Stretch"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:611
+#: includes/plugins-config/wp-nav-custom-walker.php:383
+#: woocommerce/myaccount/my-orders.php:75
+msgid "Cancel"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:613
+msgid "Apply"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:661
+msgid "Select Linking method"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:676
+msgid "Select Page"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:689
+msgid "Select Portfolio"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:702
+msgid "Select Category"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:715
+msgid "Select Post"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:776
+#: includes/framework/metabox-generator.php:850
+msgid "Remove image"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:792
+msgid "Add gallery images"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:825
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: includes/framework/metabox-generator.php:827
+msgid "Add to gallery"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-cause.php:17
+msgid "Causes bar code"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-cause.php:18
+msgid "bar code"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-cause.php:26
+#: includes/framework/metaboxes/metabox-employee.php:25
+msgid "short description about the team member."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-cause.php:27
+#: includes/framework/metaboxes/metabox-employee.php:26
+msgid "You are allowed to use HTML code as well as shortcodes."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-cause.php:33
+msgid "Summery"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-cause.php:34
+msgid "add summery here"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-clients.php:15
+#: includes/framework/metaboxes/metabox-testimonials.php:23
+msgid "Company Name"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-clients.php:27
+#: includes/framework/metaboxes/metabox-testimonials.php:39
+msgid "Website URL"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-clients.php:28
+msgid "Include http://"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-clients.php:29
+msgid "URL to the client's website or any external source. Optional!"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:16
+msgid "Employee Position"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:17
+msgid "Position in the company"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:32
+msgid "Email Address"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:33
+msgid "Employee email address"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:41
+msgid "Personal Blog or website"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:42
+#: includes/framework/metaboxes/metabox-employee.php:50
+#: includes/framework/metaboxes/metabox-employee.php:59
+#: includes/framework/metaboxes/metabox-employee.php:67
+#: includes/framework/metaboxes/metabox-employee.php:76
+#: includes/framework/metaboxes/metabox-employee.php:85
+#: includes/framework/metaboxes/metabox-employee.php:93
+#: includes/framework/metaboxes/metabox-employee.php:102
+msgid "Please enter full URL of this social network(include http://)."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:48
+msgid "Facebook"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:49
+#: includes/framework/metaboxes/metabox-employee.php:58
+#: includes/framework/metaboxes/metabox-employee.php:66
+#: includes/framework/metaboxes/metabox-employee.php:75
+#: includes/framework/metaboxes/metabox-employee.php:84
+#: includes/framework/metaboxes/metabox-employee.php:92
+#: includes/framework/metaboxes/metabox-employee.php:101
+msgid "Social Network"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:57
+msgid "Twitter"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:65
+msgid "Linked In"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:74
+msgid "Instagram"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:83
+msgid "Dribbble"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:91
+msgid "Google Plus"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-employee.php:100
+msgid "Pinterest"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-layout.php:19
+msgid "Page Layout"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-layout.php:20
+msgid "Please choose this page's layout. Default : Full layout"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-layout.php:34
+msgid "Choose a Sidebar"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-layout.php:35
+msgid "Assign a custom sidebar to this page."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:14
+#: includes/framework/metaboxes/metabox-posts.php:16
+msgid "Page Elements"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:16
+#: includes/framework/metaboxes/metabox-posts.php:18
+msgid "Depending on your need you can change this page's general layout"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:23
+msgid "No Page Title"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:24
+msgid "Page Title on"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:42
+#: includes/framework/metaboxes/metabox-posts.php:43
+msgid "Stick Template?"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:43
+#: includes/framework/metaboxes/metabox-posts.php:44
+msgid ""
+"If enabled this option page will have no padding after header and before "
+"footer."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:44
+#: includes/framework/metaboxes/metabox-posts.php:45
+msgid ""
+"Use this option if you need to use header slideshow or use a callout box "
+"before footer."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:50
+#: includes/framework/metaboxes/metabox-posts.php:51
+msgid "Header Toolbar?"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:58
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:59
+msgid "If you dont want to show breadcrumb disable this option."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:60
+msgid ""
+"Breadcrumb is useful for SEO purposes and helps your site visitors to know "
+"where exactly they are relative to your sitemap from homepage. So its also "
+"good for UX."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:66
+msgid "Page Pre-loader"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:67
+msgid "adds a preloading overlay until the page is ready to be viewed."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:68
+msgid ""
+"Please use this option when your have alot of images, slideshows and content."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:74
+msgid "Header Style"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:75
+msgid "Defines how header appear in top."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:82
+msgid "Block module"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:83
+msgid "Transparent Layer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:88
+msgid "Transparent Header Style Skin"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:102
+msgid "Transparent Header Style Sticky Scroll Offset"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:104
+msgid ""
+"zero means window height which is relative to the device screen height. any "
+"value bigger than 0 will set the sticky header to user defined value."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:114
+msgid "Main Navigation Location"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:115
+msgid "Choose which menu location to be used in this page."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:116
+msgid ""
+"If left blank, Primary Menu will be used. You should first create menu and "
+"then assign to menu locations  by goining to appearence -> menu"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:122
+msgid "Primary Navigation"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:123
+msgid "Second Navigation"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:124
+msgid "Third Navigation"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:125
+msgid "Fourth Navigation"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:126
+msgid "Fifth Navigation"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:127
+msgid "Sixth Navigation"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-pages.php:128
+msgid "Seventh Navigation"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:111
+#: includes/framework/metaboxes/metabox-posts.php:78
+msgid "Gallery Images"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:112
+#: includes/framework/metaboxes/metabox-posts.php:79
+msgid "Add Images for the gallery post type"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:113
+#: includes/framework/metaboxes/metabox-posts.php:80
+msgid "You can re-arrange images by drag and drop as well as deleting images."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:121
+#: includes/framework/metaboxes/metabox-posts.php:87
+msgid "Video URL"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:122
+#: includes/framework/metaboxes/metabox-posts.php:88
+msgid "URL to the video site to feed from."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:123
+#: includes/framework/metaboxes/metabox-posts.php:89
+msgid ""
+"Examples:<br />http://www.youtube.com/watch?v=g6gu798<br />https://vimeo.com/"
+"s8j6g7v<br />http://www.dailymotion.com/embed/video/g8ju87"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:129
+#: includes/framework/metaboxes/metabox-posts.php:95
+msgid "Upload MP3 File"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:130
+#: includes/framework/metaboxes/metabox-posts.php:96
+msgid ""
+"Upload MP3 your file or paste the full URL for external files. This file "
+"formate needed for Safari, Internet Explorer, Chrome. "
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:138
+#: includes/framework/metaboxes/metabox-posts.php:104
+msgid "Upload OGG File"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:139
+#: includes/framework/metaboxes/metabox-posts.php:105
+msgid ""
+"Upload OGG your file or paste the full URL for external files. This file "
+"formate needed for Firefox, Opera, Chrome. "
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:148
+msgid "Ajax Description"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:149
+msgid "You are allowed to use HTML tags as well as shortcodes."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:150
+msgid ""
+"Short description for ajax content. This content will be shown if you have "
+"enabled ajax feature for your portfolio loop."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:185
+msgid "Show Featured Image in Single Post?"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:186
+msgid ""
+"Please note that this option will disable featured image, video player (when "
+"video post type chosen) and gallery slideshow (when gallery post type "
+"chosen)."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:195
+msgid ""
+"If you may choose to change the permalink to a page, post or external URL. "
+"If left empty the single post permalink will be used instead."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-portfolios.php:196
+msgid "External link other than the single post."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:24
+msgid "Remove Header"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:25
+msgid "Remove Page Title"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:26
+msgid "Remove Header & Page Title"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:27
+msgid "Remove Page Title & Footer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:28
+msgid "Remove Page Title & Sub Footer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:29
+msgid "Remove Page Title & Footer & Sub Footer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:30
+msgid "Remove Footer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:31
+msgid "Remove Sub Footer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:32
+msgid "Remove Footer & Sub Footer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:33
+msgid "Remove Footer & Page Title"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:34
+msgid "Remove Footer & Sub Footer & Page Title"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:35
+msgid "Remove Header & Footer & Sub Footer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:36
+msgid "Remove Header & Page Title & Footer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:37
+msgid "Remove Header & Page Title & Footer & Sub Footer"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:60
+msgid "Featured Image?"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:62
+msgid ""
+"If you do not want to set a featured image (in case of sound post type : "
+"Audio player, in case of video post type : Video Player) kindly disable it "
+"here."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:69
+msgid "Show Meta?"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:71
+msgid "If you do not want to set a metabox kindly disable it here."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:113
+msgid "Soundcloud"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:114
+msgid ""
+"You can get both iframe or shortcode for wordpress from soundcould "
+"share=>embed popup. both formats are acceptable."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-posts.php:115
+msgid "Paste embed iframe or Wordpress shortcode."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:16
+msgid "Custom Settings"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:17
+msgid ""
+"You should enable this option if you want to override global background "
+"values defined in Theme Settings. Please note that this option will only "
+"apply to background selector and layout selector not other options int this "
+"metabox."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:25
+msgid "Header Structure"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:34
+msgid "Header Align"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:36
+#: includes/framework/metaboxes/metabox-skinning.php:45
+msgid ""
+"Please note that this option does not work for vertical header style. Use "
+"below option instead"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:43
+msgid "Header grid"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:49
+msgid "in grid header margin top"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:62
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:63
+msgid "Will make header stay in top of browser while scrolling down"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:64
+msgid "If you don't want this feature just disable it from this option."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:72
+msgid "Show Header Border Top?"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:85
+msgid "Upload Logo (Dark & default)"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:86
+msgid ""
+"This logo will be used when transparent header is enabled and your header "
+"skin is dark."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:92
+msgid "Upload Retina Logo (Dark & default)"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:93
+#: includes/framework/metaboxes/metabox-skinning.php:122
+msgid ""
+"Use this option if you want your logo appear crystal clean in retina "
+"devices(eg. macbook retina, ipad, iphone)."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:114
+msgid "Upload Logo (Mobile Version)"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:115
+msgid ""
+"Use this option to change your logo for mobile devices if your logo width is "
+"quite long to fit in mobile device screen."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:121
+msgid "Upload Retina Logo (Mobile Version)"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:129
+msgid "Choose Layout"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:130
+msgid ""
+"Choose between a full or a boxed layout to set how your website's layout "
+"will look like."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:141
+msgid "Background color & texture"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:142
+msgid "Please click on the different sections to modify their backgrounds."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:389
+msgid "Page Title Effect"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:390
+msgid "Scroll animations for your page title area"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:397
+msgid "-- No Animation"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:399
+msgid "Parallax Zoom Out"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:406
+msgid "Page Title Section Padding"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:407
+msgid "Default : 40px"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:408
+msgid ""
+"This padding will be applied to both top and bottom of the page title section"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:419
+msgid "Page Title Section Full Height"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:428
+msgid "Page Title Align"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:429
+msgid "Using this option you can align the page title text."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:436
+msgid "Title on Left"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:437
+msgid "Title on Center"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:438
+msgid "Title on Right"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:444
+msgid "Page Title Text Size"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:445
+msgid "Default : 36px"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:456
+msgid "Page Title Letter Spacing"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:457
+msgid "Default : 0px"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:458
+msgid "Space between each letter"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:469
+msgid "Page Title Font Weight"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:485
+msgid "Page Title Color"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:486
+msgid "Using this option you can change page title text color."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:493
+msgid "Breadcrumb Skin"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:494
+msgid ""
+"Dark skin is for light color backgrounds and light for dark backgrounds."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:509
+msgid "Breadcrumb Custom Color"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:510
+msgid "Using this option you can change breadcrumb link and text color."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:517
+msgid "Breadcrumb Custom Hover Color"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-skinning.php:518
+msgid "Using this option you can change breadcrumb link hover color."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-testimonials.php:14
+msgid "Author Name"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-testimonials.php:15
+msgid "Testimonial author name."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-testimonials.php:24
+#: includes/framework/metaboxes/metabox-testimonials.php:32
+msgid "Company or whatever position the author has. will be shown below name."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-testimonials.php:31
+msgid "Author Position"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-testimonials.php:40
+msgid "Author website URL. its completely optional."
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-testimonials.php:41
+msgid "please include http://"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-testimonials.php:47
+msgid "Author Quote"
+msgstr ""
+
+#: includes/framework/metaboxes/metabox-testimonials.php:48
+msgid ""
+"Please fill this form as the author quote. you are allowed to use any type "
+"of HTML code and shortcode."
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:11
+msgid "Pages"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:12
+msgid "Blog Single"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:13
+msgid "Cause Single"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:14
+msgid "Portfolio Single"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:16
+msgid "404"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:17
+msgid "Archive"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:18
+msgid "Woocommerce Shop"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:19
+msgid "Woocommerce Single"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:20
+msgid "bbPress"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:25
+msgid "Footer Column One"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:26
+msgid "Footer Column Two"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:27
+msgid "Footer Column Three"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:28
+msgid "Footer Column Four"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:29
+msgid "Footer Column Five"
+msgstr ""
+
+#: includes/framework/sidebar-generator.php:30
+msgid "Footer Column Six"
+msgstr ""
+
+#: includes/framework/woocommerce.php:80
+msgid "SHOPPING CART"
+msgstr ""
+
+#: includes/framework/woocommerce.php:84
+msgid "PROCEED TO CHECKOUT"
+msgstr ""
+
+#: includes/framework/woocommerce.php:88
+msgid "SUBMIT ORDER"
+msgstr ""
+
+#: includes/framework/woocommerce.php:258
+#: includes/framework/woocommerce.php:332
+#: includes/framework/woocommerce.php:352
+#: woocommerce/content-product_cat.php:68
+msgid "Items"
+msgstr ""
+
+#: includes/framework/woocommerce.php:258
+#: includes/framework/woocommerce.php:332
+#: includes/framework/woocommerce.php:352
+msgid "In your Shopping Bag"
+msgstr ""
+
+#: includes/framework/woocommerce.php:271
+msgid "Unit Price"
+msgstr ""
+
+#: includes/framework/woocommerce.php:272 woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: includes/framework/woocommerce.php:273 woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: includes/framework/woocommerce.php:285
+msgid "View Cart"
+msgstr ""
+
+#: includes/framework/woocommerce.php:286
+msgid "Checkout"
+msgstr ""
+
+#: includes/framework/woocommerce.php:292
+#: includes/framework/woocommerce.php:334
+#: includes/framework/woocommerce.php:354
+msgid "No products in the cart."
+msgstr ""
+
+#: includes/framework/woocommerce.php:389
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: includes/plugins-config/image-cropping.php:145
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: includes/plugins-config/image-cropping.php:273
+msgid "Image rotate failed."
+msgstr ""
+
+#: includes/plugins-config/image-cropping.php:296
+msgid "Image opacity change failed."
+msgstr ""
+
+#: includes/plugins-config/image-cropping.php:383
+msgid "Image color change failed."
+msgstr ""
+
+#: includes/plugins-config/image-cropping.php:400
+msgid "Image grayscale failed."
+msgstr ""
+
+#: includes/plugins-config/image-cropping.php:417
+msgid "Image negate failed."
+msgstr ""
+
+#: includes/plugins-config/mega-menu.php:28
+msgid ""
+"Your server is running Suhosin, and your current maxvars settings may limit "
+"the number of menu items you can save."
+msgstr ""
+
+#: includes/plugins-config/mega-menu.php:35
+msgid ""
+"You are approaching the post variable limit imposed by your server "
+"configuration.  Exceeding this limit may automatically delete menu items "
+"when you save.  Please increase your <strong>max_input_var</strong> "
+"directive in php.ini."
+msgstr ""
+
+#: includes/plugins-config/mega-menu.php:43
+msgid "Menu Item Limit Warning"
+msgstr ""
+
+#: includes/plugins-config/mega-menu.php:56
+msgid "Menu Item Post variable count on last save"
+msgstr ""
+
+#: includes/plugins-config/mega-menu.php:60
+msgid "Approximate remaining menu items"
+msgstr ""
+
+#: includes/plugins-config/pagination.php:13
+#: includes/plugins-config/pagination.php:14
+msgid "..."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: includes/plugins-config/tgm-plugin-activation/request-plugins.php:142
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+#: includes/plugins-config/tgm-plugin-activation/request-plugins.php:143
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+#: includes/plugins-config/tgm-plugin-activation/request-plugins.php:144
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:336
+#: includes/plugins-config/tgm-plugin-activation/request-plugins.php:145
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: includes/plugins-config/tgm-plugin-activation/request-plugins.php:156
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3029
+#: includes/plugins-config/tgm-plugin-activation/request-plugins.php:157
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2443
+#: woocommerce/myaccount/my-orders.php:34
+#: woocommerce/myaccount/my-orders.php:55
+msgid "Status"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins-config/tgm-plugin-activation/request-plugins.php:158
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/plugins-config/vc-integration.php:1257
+msgid "Custom layout"
+msgstr ""
+
+#: includes/plugins-config/vc-integration.php:1270
+msgid "Drag Page Section to reorder"
+msgstr ""
+
+#: includes/plugins-config/vc-integration.php:1272
+msgid "Add column"
+msgstr ""
+
+#: includes/plugins-config/vc-integration.php:1274
+msgid "Delete this Page Section"
+msgstr ""
+
+#: includes/plugins-config/vc-integration.php:1276
+msgid "Edit this Page Section"
+msgstr ""
+
+#: includes/plugins-config/vc-integration.php:1278
+msgid "Clone this Page Section"
+msgstr ""
+
+#: includes/plugins-config/vc-integration.php:1280
+msgid "Toggle Page Section"
+msgstr ""
+
+#: includes/plugins-config/woocommerce-quantity-increment/woocommerce-quantity-increment.php:107
+#, php-format
+msgid "WooCommerce Quantity Increment requires the %s 2.3 or higher to work!"
+msgstr ""
+
+#: includes/plugins-config/woocommerce-quantity-increment/woocommerce-quantity-increment.php:107
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:213
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:217
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:258
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:267
+msgid "URL"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:274
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:280
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:287
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:292
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:298
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:306
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:313
+msgid "Menu Item Icon"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:328
+msgid "Make this Item Mega Menu?"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:334
+msgid "Mega Menu Widget Area"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:336
+msgid "Select Widget Area"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:347
+msgid "Set Background Image"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:358
+msgid "Mega Menu Container Styles"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:360
+msgid ""
+"This option will allow you add custom styles (background position, "
+"background repeat,..) to your mega menu main container."
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:369
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: includes/plugins-config/wp-nav-custom-walker.php:382
+msgid "Remove"
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/loop-single-reply.php:32
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/loop-single-topic.php:24
+#, php-format
+msgid " by %1$s"
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/loop-single-topic.php:30
+#, php-format
+msgid "in <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/user-favorites.php:17
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/user-favorites.php:30
+msgid "You currently have no favorite topics."
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/user-favorites.php:30
+msgid "This user has no favorite topics."
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/user-subscriptions.php:21
+msgid "Subscribed Forum Topics"
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/user-subscriptions.php:34
+msgid "You are not currently subscribed to any topics."
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/user-subscriptions.php:34
+msgid "This user is not currently subscribed to any topics."
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/user-topics-created.php:17
+msgid "Forum Topics Created"
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/user-topics-created.php:30
+msgid "You have not created any topics."
+msgstr ""
+
+#: includes/thirdparty-integration/bbpress/user-topics-created.php:30
+msgid "This user has not created any topics."
+msgstr ""
+
+#: includes/thirdparty-integration/wpml-fix/helpme-wpml.php:16
+msgid "Languages"
+msgstr ""
+
+#: tribe-events/single-event.php:27
+#, php-format
+msgid "&laquo; All %s"
+msgstr ""
+
+#: tribe-events/single-event.php:46 tribe-events/single-event.php:79
+#, php-format
+msgid "%s Navigation"
+msgstr ""
+
+#: tribe-events/widgets/list-widget.php:86
+#, php-format
+msgid "There are no upcoming %s at this time."
+msgstr ""
+
+#: woocommerce/cart/cart.php:27 woocommerce/checkout/review-order.php:17
+#: woocommerce/order/order-details.php:20
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/checkout/review-order.php:18
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/myaccount/my-orders.php:58
+#: woocommerce/order/order-details.php:21
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:126
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:30
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:47
+#: woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:87
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:42
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:50
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:97
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:16
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:20
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:26 woocommerce/myaccount/my-orders.php:68
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+msgid ""
+"<i class=\"helpme-theme-icon-tick\"></i> Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:51
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:65
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:20
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:47
+msgid "Order Number"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:81
+msgid "View"
+msgstr ""
+
+#: woocommerce/order/order-details.php:16
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:23
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:34
+msgid "Clear selection"
+msgstr ""

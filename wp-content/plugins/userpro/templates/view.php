@@ -35,6 +35,37 @@
 		</div>
 			
 		<?php echo $userpro->show_social_bar( $args, $user_id, 'userpro-centered-icons' ); ?>
+		<div class="divdatafundecan">
+			<div class="chartsfundecan">
+				<span class="titlechartsfundecan">Tiempo Carrera</span>
+				<div class="circle" id="circles-1"></div>
+				<script>
+				jQuery(document).ready(function(){
+					var myCircle = Circles.create({
+					  id:                  'circles-1',
+					  radius:              60,
+					  value:               43,
+					  maxValue:            100,
+					  width:               10,
+					  text:                function(value){return value + "'";},
+					  colors:              ['#209705', '#30ff00'],
+					  duration:            400,
+					  wrpClass:            'circles-wrp',
+					  textClass:           'circles-text',
+					  valueStrokeClass:    'circles-valueStroke',
+					  maxValueStrokeClass: 'circles-maxValueStroke',
+					  styleWrapper:        true,
+					  styleText:           true
+					});
+				})
+				</script>
+			</div>
+			<div class="moneyfundecan">
+				<span class="titlechartsfundecan">Cantidad Recolectada</span>
+				<span class="moneyquantity">Q25.00</span>
+			</div>
+		</div>
+		
 
 		<div class="userpro-clear"></div>
 			
