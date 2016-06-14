@@ -654,6 +654,23 @@ $uppayment=get_option('userpro_payment');
 					$output['error'] = __('Email is taken. Is that you? Try to <a href="#" data-template="login">login</a>','userpro');
 				}
 				break;
+
+			case 'groupfundecan_exists':
+				 $args = array(
+					'role'         => 'runner',
+					'meta_key'     => 'team_name',
+						'meta_value'   => $input_value,
+						'meta_compare' => '=',
+				
+				 ); 
+				$corredores=get_users( $args );
+				
+
+				if (count($corredores)>0) {
+					$output['error'] = "Ya existe un grupo con ese nombre";
+				} 
+
+				break;
 			
 			case 'validatesecretkey':
 				if (strlen($input_value) != 20) {

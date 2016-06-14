@@ -89,12 +89,15 @@
 <script>
 jQuery(document).ready(function(){
 	jQuery(".userpro-field-team_name").hide();
+	jQuery(".userpro-field-team_name_select").hide();
 	  jQuery('#is_team_NO').click(function(){
 	  	jQuery(".userpro-field-team_name").hide();
+	  	jQuery(".userpro-field-team_name_select").hide();
 	  });
 
 	  jQuery('#is_team_SI').click(function(){
 	  	jQuery(".userpro-field-team_name").show();
+	  	jQuery(".userpro-field-team_name_select").show();
 	  });
 })
 </script>
