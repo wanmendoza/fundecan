@@ -64,6 +64,21 @@
 				<span class="titlechartsfundecan">Cantidad Recolectada</span>
 				<span class="moneyquantity">Q25.00</span>
 			</div>
+			<div class="sharedlink">
+					<span class="titlechartsfundecan">Link para Compartir</span>
+					<a href="<?php echo $userpro->permalink($user_id); ?>" target="_blank" class=" link" ><?php echo $userpro->permalink($user_id); ?></a>
+			</div>
+			<?php
+			 if ( !is_user_logged_in() && !is_page(array('login', 'register')) ){
+			 ?>
+					<div class="donate-btn">
+				<a class="donate-header-btn" href="http://fundecan.local" style="padding: 12px 34px; min-width: 145px;font-size:22px;">DONAR</a>
+			</div>
+					<?php
+				}
+				?>
+			
+			
 		</div>
 		
 
@@ -76,13 +91,13 @@
 	<?php
 	// action hook after user header
 	if (!isset($args['disable_head_hooks'])){
-		if (!isset($user_id)) $user_id = 0;
-		$hook_args = array_merge($args, array('user_id' => $user_id, 'unique_id' => $i));
-		do_action('userpro_after_profile_head', $hook_args);
+		// if (!isset($user_id)) $user_id = 0;
+		// $hook_args = array_merge($args, array('user_id' => $user_id, 'unique_id' => $i));
+		// do_action('userpro_after_profile_head', $hook_args);
 	}
 	?>
 	
-	<div class="userpro-body">
+	<div style="display:none;" class="userpro-body">
 	
 		<?php do_action('userpro_pre_form_message'); ?>
 

@@ -575,8 +575,17 @@
 						$v = stripslashes($v);
 						$res .= "<label class='userpro-radio'><span";
 						if (checked( $v, $value, 0 )) { $res .= ' class="checked"'; }
+
+
 						$res .= '></span><input type="radio" value="'.$v.'" name="'.$key.'-'.$i.'" ';
 						$res .= checked( $v, $value, 0 );
+						
+						if ($key=="is_team" ){
+
+
+							$res.='class="is_team" id="is_team_'.$v.'"';
+						}
+
 						$res .= " />$v</label>";
 					}
 					$res .= "</div>";
