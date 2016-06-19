@@ -99,5 +99,50 @@ jQuery(document).ready(function(){
 	  	jQuery(".userpro-field-team_name").show();
 	  	jQuery(".userpro-field-team_name_select").show();
 	  });
+
+
+	  jQuery(".userpro-field-team_name .userpro-input input").focus(function(){
+	  	jQuery(".userpro-field-team_name_select .userpro-input .chosen-container .chosen-single span").html("Seleccione un equipo");
+
+	  	jQuery('.userpro-field-team_name_select .userpro-input select').prop('selectedIndex',-1);
+	  });
+	
+	jQuery(".userpro-field-team_name_select .userpro-input select").change(function(){
+		jQuery(".userpro-field-team_name .userpro-input input").val("");
+	});
+	
+	jQuery("#team_name_select_chosen .chosen-drop .chosen-results").click(function(){
+		jQuery(".userpro-field-team_name .userpro-input input").val("");
+	});
+
+  	jQuery("#linkfundecancheckout").hide();
+	  jQuery(".userpro-field-pay_method  .userpro-input select").change(function(){
+		if (jQuery('.userpro-field-pay_method  .userpro-input select').val()=="No tengo boleto"){
+			jQuery("#linkfundecancheckout").show();
+		}else{
+			jQuery("#linkfundecancheckout").hide();
+		}
+	});
+
+
+	jQuery(".userpro-field-alcanzar_meta ").hide();
+	jQuery('#multiplicador_esperanzas_SI').click(function(){
+	  	jQuery(".userpro-field-alcanzar_meta ").show();
+	  });
+
+	  jQuery('#multiplicador_esperanzas_NO').click(function(){
+	  	jQuery(".userpro-field-alcanzar_meta ").hide();
+	  });
+
+
+	  jQuery(".userpro-field-meta_a_alcanzar").hide();
+	  jQuery('#alcanzar_meta_SI').click(function(){
+	  	jQuery(".userpro-field-meta_a_alcanzar").show();
+	  });
+
+	  jQuery('#alcanzar_meta_NO').click(function(){
+	  	jQuery(".userpro-field-meta_a_alcanzar").hide();
+	  });
+
 })
 </script>

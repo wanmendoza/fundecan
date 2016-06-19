@@ -309,8 +309,13 @@
 					break;
 					
 				case 'text':
-				
-					$res .= "<input type='text' name='$key-$i' id='$key-$i' value=".'"'.$value.'"'." placeholder='".$array['placeholder']."' $data />";
+					$quetzal="";
+					$ancho="";
+					if ($key=="meta_a_alcanzar"){
+						$quetzal="Q";
+						$ancho="style='width:70% !important'";
+					}
+					$res .= "$quetzal<input $ancho type='text' name='$key-$i' id='$key-$i' value=".'"'.$value.'"'." placeholder='".$array['placeholder']."' $data />";
 					
 					/* allow user to make it hideable */
 					if ( isset($array['hideable']) && $array['hideable'] == 1) {
@@ -351,6 +356,10 @@
 						$res .= checked( $hideable, $is_hidden, 0 );
 						$res .= " />".__('Make this field hidden from public','userpro')."</label>";
 					}
+
+					if ($key="motivacion_correr"){
+						$res.="<div id='multiplicadoresperanzas'><h3>Multiplicador de Esperanzas</h3><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>";
+					}
 					
 					break;
 					
@@ -363,6 +372,7 @@
 					break;
 					
 				case 'select':
+
 					if (isset($array['options'])){
 						$countrylist=get_option('userpro_fields');
 						if(isset($countrylist['billing_country']['options']))
@@ -379,7 +389,7 @@
 					
 									if (!isset( $value )) $value = 0;
 									if (isset($array['default']) && !$value) $value = $array['default'];
-									$res .= "<select name='$key-$i' id='$key-$i' class='chosen-select' data-placeholder='".$array['placeholder']."' $data >";
+									$res .= "<select name='$key-$i' id='$key-$i' class=' chosen-select' data-placeholder='".$array['placeholder']."' $data >";
 									if (is_array($array['options'])) {
 										if (isset($array['placeholder']) && !empty($array['placeholder'])){
 											$res .= '<option value="" '.selected(0, $value, 0).'></option>';
@@ -441,13 +451,39 @@
 						$res .= "</select>";
 						
 					} else {
-					
 						
-					 
+						if ($key=="team_name_select"){
+
+							$groupsfundecan = array();
+							$args = array(
+								'role'         => 'runner',
+							 ); 
+							$corredores=get_users( $args );
+						 	
+						 	foreach ($corredores as $corredor) {
+						 		# code...
+						 		$teamname=get_user_meta($corredor->ID,"team_name");
+						 		
+
+						 		if (!in_array($teamname[0], $groupsfundecan)) {
+								    $groupsfundecan[]=$teamname[0];
+								}
+
+
+						 	}
+
+						 	//print_r($groupsfundecan).'<br>';
+						 	
+						 	$array['options']=$groupsfundecan;
+						 	$array["placeholder"]="Seleccione un equipo";
 					 	
+						}
+
+
+						
 						if (!isset( $value )) $value = 0;
 						if (isset($array['default']) && !$value) $value = $array['default'];
-						$res .= "<select name='$key-$i' id='$key-$i' class='chosen-select' data-placeholder='".$array['placeholder']."' $data >";
+						$res .= "<select id='$key' name='$key-$i' id='$key-$i' class=' chosen-select' data-placeholder='".$array['placeholder']."' $data >";
 						if (is_array($array['options'])) {
 							if (isset($array['placeholder']) && !empty($array['placeholder'])){
 								$res .= '<option value="" '.selected(0, $value, 0).'></option>';
@@ -458,6 +494,14 @@
 							}
 						}
 						$res .= "</select>";
+						if ($key=="team_name_select"){
+							$res.="<br><span style='display: block;margin: 8px auto 0;text-align: center;'>ó si quiere crear uno nuevo</span>";
+						}else{
+							if ($key=="pay_method"){
+								$res.="<div id='linkfundecancheckout'><span>Puedes comprar tu boleto por medio de tu tarjeta de crédito: <a href=''>COMPRAR BOLETO CARRERA</a></span></div>";
+
+							}
+						}
 					
 					}
 					
@@ -585,6 +629,9 @@
 
 							$res.='class="is_team" id="is_team_'.$v.'"';
 						}
+						if ($v=="NO" && $key=="is_team"){
+							$v="NO, correre individual";
+						}
 
 						$res .= " />$v</label>";
 					}
@@ -608,7 +655,28 @@
 						$res .= "<label class='userpro-radio full'><span";
 						if (checked( $v, $value, 0 )) { $res .= ' class="checked"'; }
 						$res .= '></span><input type="radio" value="'.$v.'" name="'.$key.'-'.$i.'" ';
+
+						if ($key=="multiplicador_esperanzas_selec"){
+							$res.=' id="multiplicador_esperanzas_'.$v.'"';
+						}else{
+							if ($key=="alcanzar_meta"){
+								$res.=' id="alcanzar_meta_'.$v.'"';
+							}	
+						}
+
 						$res .= checked( $v, $value, 0 );
+						if ($key=="multiplicador_esperanzas_selec"){
+							if ($v=="SI"){
+								$v="SI (conseguir donadores a traves de su link)";
+							}
+						}else{
+							if ($key=="alcanzar_meta"){
+								if ($v=="NO"){
+									$v="NO, sin meta, recaudare todo lo que pueda.";
+								}
+							}	
+						}
+
 						$res .= " />$v</label>";
 					}
 					
