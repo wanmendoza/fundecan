@@ -15,7 +15,7 @@
 						<div class='userpro-checkbox-wrap'>
 							<label class='userpro-checkbox hide-field'>
 								<span></span>
-								<input type='checkbox' name='rememberme-<?php echo $args['unique_id']; ?>' id='rememberme-<?php echo $args['unique_id']; ?>' value="true" /><?php _e('Remember me','userpro'); ?>
+								<input type='checkbox' name='rememberme-<?php echo $args['unique_id']; ?>' id='rememberme-<?php echo $args['unique_id']; ?>' value="true" /><?php echo "Recordar mis datos." ?>
 							</label>
 						</div>
 						

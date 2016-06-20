@@ -408,8 +408,31 @@ global $helpme_settings, $helpme_accent_color, $post, $helpme_json;
 	};
 </script>
 
-<?php }
+
+
+
+
+
+<?php 
+
+
+
+
+
+
+
+
+}
+
+function add_query_vars_filter( $vars ){
+  $vars[] = "fundecanuser";
+  return $vars;
+}
+add_filter( 'query_vars', 'add_query_vars_filter' );
+
 
 
 
 ?>
+
+

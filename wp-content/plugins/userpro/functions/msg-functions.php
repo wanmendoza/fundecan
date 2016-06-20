@@ -37,7 +37,7 @@ if($uppayment['userpro_payment_option']=='y')
 	}
 else
 {
-echo '<div class="userpro-message userpro-message-ajax"><p>'.__('Your account is currently being reviewed. Thanks for your patience.','userpro').'</p></div>';
+echo '<div class="userpro-message userpro-message-ajax"><p>Tu cuenta sera revisada, en cuanto la activemos recibiras una notificación.</p></div>';
 }
 }
 

@@ -60,11 +60,11 @@
 			'type' => 'passwordstrength',
 			'label' => 'Password Strength Meter',
 			'too_short' => 'Password too short',
-			'very_strong' => 'Very Strong',
-			'strong' => 'Strong',
-			'good' => 'Good',
-			'weak' => 'Weak',
-			'very_weak' => 'Very Weak'
+			'very_strong' => 'Muy Fuerte',
+			'strong' => 'Fuerte',
+			'good' => 'Buena',
+			'weak' => 'Debil',
+			'very_weak' => 'Muy Debil'
 		);
 		$userpro_fields['country'] = array(
 			'_builtin' => 1,

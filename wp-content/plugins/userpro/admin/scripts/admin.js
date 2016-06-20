@@ -93,6 +93,7 @@ jQuery(document).ready(function() {
 			dataType: 'JSON',
 			type: 'POST',
 			success:function(data){
+				location.reload();
 				parent.fadeOut();
 				if (data.count === '0' || data.count == '' || !data.count) {
 					jQuery('.upadmin-bubble-new').remove();

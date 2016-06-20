@@ -643,7 +643,7 @@ $uppayment=get_option('userpro_payment');
 				if (username_exists($input_value)){
 					$output['error'] = __('Username already taken.','userpro');
 				} else if ( !preg_match("/^[A-Za-z0-9_-]+$/", $input_value) ) {
-					$output['error'] = __('Illegal characters are not allowed in username.','userpro');
+					$output['error'] = "No se permiten caractéres especiales en el nombre de usuario";
 				}
 				break;
 			

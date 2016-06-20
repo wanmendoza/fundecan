@@ -244,6 +244,11 @@
 		/* display a field */
 		if (!$user_id) $user_id = 0;
 		if (isset( $array['type'] ) && userpro_field_by_role( $key, $user_id ) && userpro_private_field_class($array)=='') {
+
+			if ($key=="motivacion_correr"){
+						$res.="<div id='multiplicadoresperanzas'><span class='mytitle'>Multiplicador de Esperanzas</span><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>";
+					}
+
 		$res .= "<div class='userpro-field userpro-field-".$key." ".userpro_private_field_class($array)."' data-key='$key'>";
 		
 		if ( $array['label'] && $array['type'] != 'passwordstrength' ) {
@@ -267,6 +272,7 @@
 					
 		$res .= "</div>";
 		}
+
 		
 		$res .= "<div class='userpro-input'>";
 		
@@ -357,9 +363,7 @@
 						$res .= " />".__('Make this field hidden from public','userpro')."</label>";
 					}
 
-					if ($key="motivacion_correr"){
-						$res.="<div id='multiplicadoresperanzas'><h3>Multiplicador de Esperanzas</h3><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>";
-					}
+					
 					
 					break;
 					
@@ -368,7 +372,7 @@
 					break;
 					
 				case 'passwordstrength' :
-					$res .= '<span class="strength-text" '.$data.'>'.__('Password Strength','userpro').'</span><div class="userpro-clear"></div><span class="strength-container"><span class="strength-plain"></span><span class="strength-plain"></span><span class="strength-plain"></span><span class="strength-plain"></span><span class="strength-plain"></span></span><div class="userpro-clear"></div>';
+					$res .= '<span class="strength-text" '.$data.'>Fortaleza de la contraseña.</span><div class="userpro-clear"></div><span class="strength-container"><span class="strength-plain"></span><span class="strength-plain"></span><span class="strength-plain"></span><span class="strength-plain"></span><span class="strength-plain"></span></span><div class="userpro-clear"></div>';
 					break;
 					
 				case 'select':
