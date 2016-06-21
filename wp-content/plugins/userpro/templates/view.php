@@ -33,22 +33,62 @@
 				userpro_logout_link( $user_id );
 			} ?>
 		</div>
-			
-		<?php echo $userpro->show_social_bar( $args, $user_id, 'userpro-centered-icons' ); ?>
+		<div class="divnamefundecan" style="font-size: 24px;color: #fff;">
+			<?php
+				echo $statususer=get_user_meta( $user_id,'display_name', true ); 
+			?>
+		</div>
+		<hr style="border: 1px solid;margin-top: 15px;margin-bottom: 15px;">
+		<!-- <?php echo $userpro->show_social_bar( $args, $user_id, 'userpro-centered-icons' ); ?> -->
+		<div class="divkilometros" style="margin-bottom:35px; margin-top:35px;">
+			<div class="quantitykil" style="font-size: 82px;color: #fff;">00.00</div>
+			<div class="titulokil" style="font-size: 18px;color: #fff;">Kilometros Recorridos</div>
+		</div>
+		
 		<div class="divdatafundecan">
-			<div class="chartsfundecan">
+			<div class="chartsfundecan" style="display:inline-block">
 				<span class="titlechartsfundecan">Tiempo Carrera</span>
 				<div class="circle" id="circles-1"></div>
 				<script>
 				jQuery(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-1',
-					  radius:              60,
+					  radius:              80,
 					  value:               43,
 					  maxValue:            100,
 					  width:               10,
 					  text:                function(value){return value + "'";},
-					  colors:              ['#209705', '#30ff00'],
+					  colors:              ['#ffffff', '#e14500'],
+					  duration:            400,
+					  wrpClass:            'circles-wrp',
+					  textClass:           'circles-text',
+					  valueStrokeClass:    'circles-valueStroke',
+					  maxValueStrokeClass: 'circles-maxValueStroke',
+					  styleWrapper:        true,
+					  styleText:           true
+					});
+				})
+				</script>
+				<style>
+				.circles-text{
+					color:#ffffff;
+					font-size:24px !important;
+				}
+				</style>
+			</div>
+			<div class="chartsfundecan" style="display:inline-block">
+				<span class="titlechartsfundecan">Recaudación</span>
+				<div class="circle" id="circles-2"></div>
+				<script>
+				jQuery(document).ready(function(){
+					var myCircle = Circles.create({
+					  id:                  'circles-2',
+					  radius:              80,
+					  value:               43,
+					  maxValue:            100,
+					  width:               10,
+					  text:                function(value){return "Q"+value;},
+					  colors:              ['#ffffff', '#30ff00'],
 					  duration:            400,
 					  wrpClass:            'circles-wrp',
 					  textClass:           'circles-text',
@@ -60,23 +100,17 @@
 				})
 				</script>
 			</div>
-			<div class="moneyfundecan">
-				<span class="titlechartsfundecan">Cantidad Recolectada</span>
-				<span class="moneyquantity">Q25.00</span>
-			</div>
+
+		
 			<div class="sharedlink">
 					<span class="titlechartsfundecan">Link para Compartir</span>
 					<a href="<?php echo $userpro->permalink($user_id); ?>" target="_blank" class=" link" ><?php echo $userpro->permalink($user_id); ?></a>
 			</div>
-			<?php
-			 if ( !is_user_logged_in() && !is_page(array('login', 'register')) ){
-			 ?>
+			
 					<div class="donate-btn">
 				<a class="donate-header-btn" href="http://fundecan.local" style="padding: 12px 34px; min-width: 145px;font-size:22px;">DONAR</a>
 			</div>
-					<?php
-				}
-				?>
+				
 			
 			
 		</div>

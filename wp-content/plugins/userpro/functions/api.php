@@ -282,7 +282,7 @@ class userpro_api {
 				} else {
 					$gender = 'male'; // default gender
 				}
-				$url = userpro_url . 'img/default_avatar_'.$gender.'.jpg';
+				$url = userpro_url . 'img/default_avatar_'.$gender.'.png';
 			}
 		}
 		return $url;

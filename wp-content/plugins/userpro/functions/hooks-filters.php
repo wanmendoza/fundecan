@@ -36,7 +36,7 @@
 				$gender = 'male'; // default gender
 			}
 		
-			$userpro_default = userpro_url . 'img/default_avatar_'.$gender.'.jpg';
+			$userpro_default = userpro_url . 'img/default_avatar_'.$gender.'.png';
 			$return = '<img src="'.$userpro_default.'" width="'.$size.'" height="'.$size.'" alt="'.$alt.'" class="default avatar" />';
 		
 		}
