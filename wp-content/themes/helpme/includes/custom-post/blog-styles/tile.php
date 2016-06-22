@@ -207,7 +207,7 @@ function blog_tile_style( $atts, $i) {
 	    the_excerpt_max_charlength($excerpt_length);
 	    $output .= '<div class="blog-excerpt">' . ob_get_clean() . '</div>';
 	}
-	$output .= '<div class="blog-readmore-btn"><a title="'.get_the_title().'" href="'.get_permalink().'">'.esc_html__("Read More","helpme").'</a></div>';
+	$output .= '<div class="blog-readmore-btn"><a title="'.get_the_title().'" href="'.get_permalink().'">Leer Mas...</a></div>';
 	$output .='</div>';
 	//if($i%2 == 0 && $item_row == 2) {
 	$output .='</article>';

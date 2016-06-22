@@ -214,7 +214,7 @@ if ( is_sticky() ){
             the_excerpt_max_charlength($excerpt_length);
             $output .= '<div class="blog-excerpt">' . ob_get_clean() . '</div>';
         }
-		$output .= '<div class="blog-readmore-btn "><a title="'.get_the_title().'" href="'.get_permalink().'">'.esc_html__("Read More","helpme").'</a></div>';
+		$output .= '<div class="blog-readmore-btn "><a title="'.get_the_title().'" href="'.get_permalink().'">Leer Mas...</a></div>';
 
     } else {
         $content = str_replace(']]>', ']]&gt;', apply_filters('the_content', get_the_content()));

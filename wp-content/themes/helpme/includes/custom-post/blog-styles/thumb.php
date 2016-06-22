@@ -58,7 +58,7 @@ function blog_thumb_style($atts)
         the_excerpt_max_charlength($excerpt_length);
         $output .= '<div class="blog-excerpt">' . ob_get_clean() . '</div>';
     }
-	$output .= '<a href="' . get_permalink() . '" class="blog-readmore"><span></span>'.esc_html__("Read more","helpme").'</a>';
+	$output .= '<a href="' . get_permalink() . '" class="blog-readmore"><span></span>Leer Mas...</a>';
 	$output .= '</div>';
     $output .= '</div></div>';
     $output .= '</article>';
