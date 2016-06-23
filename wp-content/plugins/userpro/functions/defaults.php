@@ -268,7 +268,7 @@
 		$array['hide_admin_bar'] = 1;
 		$array['modstate_social'] = 1;
 		$array['terms_agree'] = 1;
-		$array['terms_agree_text'] = "";
+		$array['terms_agree_text'] = __('To complete registration, you must read and agree to our <a href="#">terms and conditions</a>. This text can be custom.','userpro');
 		$array['verified_link'] = '';
 		$array['verified_badge_by_name'] = 1;
 		$array['use_relative'] = 'relative';

@@ -108,11 +108,11 @@ jQuery(document).ready(function(){
 	  });
 	
 	jQuery(".userpro-field-team_name_select .userpro-input select").change(function(){
-		jQuery(".userpro-field-team_name .userpro-input input").val("");
+		//jQuery(".userpro-field-team_name .userpro-input input").val("");
 	});
 	
 	jQuery("#team_name_select_chosen .chosen-drop .chosen-results").click(function(){
-		jQuery(".userpro-field-team_name .userpro-input input").val("");
+		//jQuery(".userpro-field-team_name .userpro-input input").val("");
 	});
 
   	jQuery("#linkfundecancheckout").hide();

@@ -317,11 +317,13 @@
 				case 'text':
 					$quetzal="";
 					$ancho="";
+					$typetext="text";
 					if ($key=="meta_a_alcanzar"){
 						$quetzal="Q";
 						$ancho="style='width:70% !important'";
+						$typetext="number";
 					}
-					$res .= "$quetzal<input $ancho type='text' name='$key-$i' id='$key-$i' value=".'"'.$value.'"'." placeholder='".$array['placeholder']."' $data />";
+					$res .= "$quetzal<input $ancho type='$typetext' name='$key-$i' id='$key-$i' value=".'"'.$value.'"'." placeholder='".$array['placeholder']."' $data />";
 					
 					/* allow user to make it hideable */
 					if ( isset($array['hideable']) && $array['hideable'] == 1) {

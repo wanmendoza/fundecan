@@ -460,7 +460,31 @@ $uppayment=get_option('userpro_payment');
 				$user_invited="";
 				/* Form validation */
 				/* Here you can process custom "errors" before proceeding */
+				//print_r($form);
+				if (isset($form["team_name_select"]) && $form["team_name_select"]!=""){
+					if (!isset($form["team_name"]) || isset($form["team_name"])==" "){
+						$form["team_name"]=$form["team_name_select"];
+					}
+				}
+
 				$output['error'] = apply_filters('userpro_register_validation', $output['error'], $form);
+
+				if (isset($form["is_team"])=="SI" && isset($form["team_name"]) && $form["team_name"]==""){
+					$output["error"]["team_name"]="Selecciono formar parte de un equipo. Debe ingresar el nombre del equipo";
+				}
+
+				if (isset($form["multiplicador_esperanzas_selec"])=="SI" && !isset($form["alcanzar_meta"])){
+					$output["error"]["alcanzar_meta"]="Selecciono ser multiplicador de esperanzas. Seleccione si desea alcanzar una meta o no.";
+				}
+
+				if (isset($form["alcanzar_meta"])=="SI" && !isset($form["meta_a_alcanzar"])){
+					$output["error"]["meta_a_alcanzar"]="Selecciono alcanzar una meta. Ingrese la meta a alcanzar";
+				}
+
+				//print_r($form);
+				//print_r($output);
+				//exit;
+				
 				if(userpro_get_option('userpro_invite_emails_enable') == 1)				
 				$user_invited = register_invited_user_only($form['user_email']);
 				if($user_invited == 'not_invited_user') {

@@ -5,15 +5,51 @@
 	<div class="userpro-centered <?php if (isset($args['header_only']) && $args['header_only']) { echo 'userpro-centered-header-only'; } ?>">
 	
 		<?php if ( userpro_get_option('lightbox') && userpro_get_option('profile_lightbox') ) { ?>
-		<div class="userpro-profile-img" data-key="profilepicture"><a href="<?php echo $userpro->profile_photo_url($user_id); ?>" class="userpro-tip-fade lightview" data-lightview-caption="<?php echo $userpro->profile_photo_title( $user_id ); ?>" title="<?php _e('View member photo','userpro'); ?>"><?php echo get_avatar( $user_id, $profile_thumb_size ); ?></a></div>
+		<div class="userpro-profile-img" data-key="profilepicture">
+			<div class="" style=" display:inline-block">
+			<a href="<?php echo $userpro->profile_photo_url($user_id); ?>" class="userpro-tip-fade lightview" data-lightview-caption="<?php echo $userpro->profile_photo_title( $user_id ); ?>" title="<?php _e('View member photo','userpro'); ?>"><?php echo get_avatar( $user_id, $profile_thumb_size ); ?></a>
+			</div>
+			<div class="" style="width:50%; display:inline-block">
+				<div class="divmotivacionlabel">
+					Mi motivación a correr:
+				</div>
+				<div class="divmotivacion">
+				<?php
+					echo $quoteuser = '"'.get_user_meta($user_id, 'motivacion_correr', true).'"';
+				?>
+				</div>
+			
+			</div>
+
+			</div>
 		<?php } else { ?>
-		<div class="userpro-profile-img" data-key="profilepicture"><a href="<?php echo $userpro->permalink($user_id); ?>" title="<?php _e('View Profile','userpro'); ?>"><?php echo get_avatar( $user_id, $profile_thumb_size ); ?></a></div>
+		<div class="userpro-profile-img" data-key="profilepicture">
+			<div class="" style=" display:inline-block">
+				<a href="<?php echo $userpro->permalink($user_id); ?>" title="<?php _e('View Profile','userpro'); ?>"><?php echo get_avatar( $user_id, $profile_thumb_size ); ?></a>
+			</div>
+			<div class="" style="width:50%; display:inline-block">
+				<div class="divmotivacionlabel">
+					Mi motivación a correr:
+				</div>
+				<div class="divmotivacion">
+				<?php
+					echo $quoteuser = '"'.get_user_meta($user_id, 'motivacion_correr', true).'"';
+				?>
+				</div>
+			
+			</div>
+
+		</div>
 		<?php } ?>
 		<div class="userpro-profile-img-after">
 			<div class="userpro-profile-name">
 				<a href="<?php echo $userpro->permalink($user_id); ?>"><?php echo userpro_profile_data('display_name', $user_id); ?></a><?php echo userpro_show_badges( $user_id ); ?>
 			</div>
+			
+
 			<?php do_action('userpro_after_profile_img' , $user_id); ?>
+
+
 			<?php if ( userpro_can_edit_user( $user_id ) ) { ?>
 			<div class="userpro-profile-img-btn">
 				<?php if (isset($args['header_only']) && $args['header_only']){ ?>
@@ -27,23 +63,86 @@
 		</div>
 		
 		<div class="userpro-profile-icons top">
+			
 			<?php if (isset($args['permalink'])) {
 				userpro_logout_link( $user_id, $args['permalink'], $args['logout_redirect'] );
 			} else {
 				userpro_logout_link( $user_id );
 			} ?>
+			
+			
 		</div>
 		<div class="divnamefundecan" style="font-size: 24px;color: #fff;">
 			<?php
 				echo $statususer=get_user_meta( $user_id,'display_name', true ); 
 			?>
 		</div>
+		<?php
+			$teamuser = get_user_meta($user_id, 'team_name');
+			if ($teamuser[0]!=""){
+				?>
+				<div class="divteamname" style="">
+					<span>Equipo: </span> 
+					<span>
+					<?php
+					echo $teamuser;
+					?>
+					</span>
+				</div>
+				<?php
+			}
+		?>
+		
 		<hr style="border: 1px solid;margin-top: 15px;margin-bottom: 15px;">
 		<!-- <?php echo $userpro->show_social_bar( $args, $user_id, 'userpro-centered-icons' ); ?> -->
 		<div class="divkilometros" style="margin-bottom:35px; margin-top:35px;">
 			<div class="quantitykil" style="font-size: 82px;color: #fff;">00.00</div>
 			<div class="titulokil" style="font-size: 18px;color: #fff;">Kilometros Recorridos</div>
 		</div>
+		<style>
+		 div.userpro-profile-img {
+			    width: 100% !important;
+			}
+		.userpro-profile-img{
+			width: 100%;
+		}
+
+		.divmotivacionlabel {
+			    color: #fff;
+			    font-size: 16px;
+			}
+
+			.divmotivacion {
+			    border: 1px solid #fff !important;
+			    color: #ffffff;
+			    font-size: 14px;
+			    font-style: italic;
+			    margin-left: 20px !important;
+			    margin-right: 20px !important;
+			    margin-top: 10px !important;
+			    padding: 15px !important;
+			}
+
+			a.userpro-small-link {
+			    background: #d10572 none repeat scroll 0 0;
+			    border-radius: 5px;
+			    color: #fff !important;
+			    height: 40px !important;
+			    padding: 10px !important;
+			    width: 80px;
+			}
+
+			input.userpro-button.secondary, a.userpro-button.secondary, div.userpro div.ajax-file-upload {
+			    background: #d10572 none repeat scroll 0 0 !important;
+			    border: medium none !important;
+			    box-shadow: none !important;
+			    color: #fff !important;
+			    height: 34px !important;
+			    margin-bottom: 15px !important;
+			    padding: 3px !important;
+			    width: 100px;
+			}
+		</style>
 		
 		<div class="divdatafundecan">
 			<div class="chartsfundecan" style="display:inline-block">
