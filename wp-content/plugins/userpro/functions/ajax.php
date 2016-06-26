@@ -374,7 +374,7 @@ $uppayment=get_option('userpro_payment');
 						}
 							else
 							{
-							$output['custom_message'] = '<div class="userpro-message userpro-message-ajax"><p>'.__('Your account is currently being reviewed. Thanks for your patience.','userpro').'</p></div>';
+							$output['custom_message'] = '<div class="userpro-message userpro-message-ajax"><p>Tu cuenta esta pendiente de aprobación. Gracias por tu paciencia.</p></div>';
 						}}
 						wp_logout();
 							
@@ -469,7 +469,7 @@ $uppayment=get_option('userpro_payment');
 
 				$output['error'] = apply_filters('userpro_register_validation', $output['error'], $form);
 
-				if (isset($form["is_team"])=="SI" && isset($form["team_name"]) && $form["team_name"]==""){
+				if (isset($form["is_team"]) && $form["is_team"]=="SI" && isset($form["team_name"]) && $form["team_name"]==""){
 					$output["error"]["team_name"]="Selecciono formar parte de un equipo. Debe ingresar el nombre del equipo";
 				}
 
@@ -477,7 +477,7 @@ $uppayment=get_option('userpro_payment');
 					$output["error"]["alcanzar_meta"]="Selecciono ser multiplicador de esperanzas. Seleccione si desea alcanzar una meta o no.";
 				}
 
-				if (isset($form["alcanzar_meta"])=="SI" && !isset($form["meta_a_alcanzar"])){
+			if (isset($form["alcanzar_meta"]) && $form["alcanzar_meta"]=="SI" && $form["meta_a_alcanzar"]==""){
 					$output["error"]["meta_a_alcanzar"]="Selecciono alcanzar una meta. Ingrese la meta a alcanzar";
 				}
 

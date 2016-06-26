@@ -74,22 +74,7 @@ if(!function_exists('helpme_woocommerce_cart_process_steps')) {
 
 		?>
 
-		<div class="woocommerce-process-steps">
-			<ul>
-				<li class="<?php echo esc_attr($cart); ?>">
-					<span><?php esc_html_e('SHOPPING CART', 'helpme'); ?></span>
-					<i class="helpme-icon-close"></i>
-				</li>
-				<li class="<?php echo esc_attr($checkout); ?>">
-					<span><?php esc_html_e('PROCEED TO CHECKOUT', 'helpme'); ?></span>
-					<i class="helpme-icon-close"></i>
-				</li>
-				<li class="<?php echo esc_attr($complete); ?>">
-					<span><?php esc_html_e('SUBMIT ORDER', 'helpme'); ?></span>
-					<i class="helpme-icon-close"></i>
-				</li>
-			</ul>
-		</div>
+		
 
 		<?php
 

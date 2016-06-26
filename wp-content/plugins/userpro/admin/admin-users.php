@@ -22,7 +22,7 @@ function userpro_admin_users_badges($value, $column_name, $user_id) {
 	if (userpro_get_option('backend_users_change')){
 	if ( 'userpro_username' == $column_name) {
 		$res = '<div class="upadmin-avatar">'.get_avatar($user_id, 40).'</div>';
-		$res .= '<strong><a href="'.$userpro->permalink($user_id).'" target="_blank" title="'.__('View Profile','userpro').'">'.$user->user_login.'</a></strong><br />';
+		$res .= '<strong><a href="'.$userpro->permalink($user_id).'" target="_blank" title="Ver Perfil">'.$user->user_login.'</a></strong><br />';
 		$res .= '<span class="upadmin-small-name">('.userpro_profile_data('display_name', $user_id).')</span>';
 		$res .= '<div class="row-actions"><span class="edit"><a href="'.$userpro->permalink($user_id, 'edit').'" target="_blank">'.__('Edit Profile','userpro').'</a></span></div>';
 		return $res;

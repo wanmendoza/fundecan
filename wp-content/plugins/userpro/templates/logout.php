@@ -14,7 +14,7 @@
 				</div>
 				<div class="userpro-profile-img-btn">
 					<a href="<?php echo $userpro->permalink(); ?>" class="userpro-button secondary"><?php _e('View Profile','userpro'); ?></a>
-					<a href="<?php echo userpro_logout_url( $user_id, $args['permalink'], $args['logout_redirect'] ); ?>" class="userpro-button secondary"><?php _e('Logout','userpro'); ?></a>
+					<a href="<?php echo userpro_logout_url( $user_id, $args['permalink'], $args['logout_redirect'] ); ?>" class="userpro-button secondary">Cerrar Sesion</a>
 				</div>
 			</div>
 			

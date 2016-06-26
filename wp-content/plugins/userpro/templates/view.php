@@ -25,7 +25,7 @@
 		<?php } else { ?>
 		<div class="userpro-profile-img" data-key="profilepicture">
 			<div class="" style=" display:inline-block">
-				<a href="<?php echo $userpro->permalink($user_id); ?>" title="<?php _e('View Profile','userpro'); ?>"><?php echo get_avatar( $user_id, $profile_thumb_size ); ?></a>
+				<a href="<?php echo $userpro->permalink($user_id); ?>" title="Ver Perfil"><?php echo get_avatar( $user_id, $profile_thumb_size ); ?></a>
 			</div>
 			<div class="" style="width:50%; display:inline-block">
 				<div class="divmotivacionlabel">
@@ -53,9 +53,9 @@
 			<?php if ( userpro_can_edit_user( $user_id ) ) { ?>
 			<div class="userpro-profile-img-btn">
 				<?php if (isset($args['header_only']) && $args['header_only']){ ?>
-				<a href="<?php echo $userpro->permalink($user_id, 'edit'); ?>" class="userpro-button secondary"><?php _e('Edit Profile','userpro') ?></a>
+				<a href="<?php echo $userpro->permalink($user_id, 'edit'); ?>" class="userpro-button secondary">Editar Perfil</a>
 				<?php } else { ?>
-				<a href="#" data-up_username="<?php echo $userpro->id_to_member($user_id); ?>" data-template="edit" class="userpro-button secondary"><?php _e('Edit Profile','userpro'); ?></a>
+				<a href="#" data-up_username="<?php echo $userpro->id_to_member($user_id); ?>" data-template="edit" class="userpro-button secondary">Editar Perfil</a>
 				<?php } ?>
 				<img src="<?php echo $userpro->skin_url(); ?>loading.gif" alt="" class="userpro-loading" />
 			</div>
@@ -148,13 +148,43 @@
 			<div class="chartsfundecan" style="display:inline-block">
 				<span class="titlechartsfundecan">Tiempo Carrera</span>
 				<div class="circle" id="circles-1"></div>
+				<?php
+					$km_torun=get_user_meta( $user_id,'km_torun', true );
+					if ($km_torun=="Todo lo que quieras"){
+						$km_torun="Indefinido";
+					}
+				?>
+				<div class="metaalcanzar">
+					<?php
+					echo "Km a correr: <br>".$km_torun;
+					?>
+				</div>
+				<?php
+					$timecarrera=10;
+					$maxtimecarrera=0;
+					if ($timecarrera<=60){
+						$maxtimecarrera=60;
+					}else{
+						if ($timecarrera>60 && $timecarrera<=120){
+							$maxtimecarrera=120;
+						}else{
+							if ($timecarrera>120 && $timecarrera<=180){
+								$maxtimecarrera=180;
+							}else{
+								if ($timecarrera>180 && $timecarrera<=240){
+									$maxtimecarrera=240;
+								}
+							}
+						}
+					}
+				?>
 				<script>
 				jQuery(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-1',
 					  radius:              80,
-					  value:               43,
-					  maxValue:            100,
+					  value:               <?php echo $timecarrera;?>,
+					  maxValue:            <?php echo $maxtimecarrera;?>,
 					  width:               10,
 					  text:                function(value){return value + "'";},
 					  colors:              ['#ffffff', '#e14500'],
@@ -173,18 +203,38 @@
 					color:#ffffff;
 					font-size:24px !important;
 				}
+
+				.metaalcanzar {
+				    color: #fff;
+				    font-size: 18px;
+				}
 				</style>
 			</div>
 			<div class="chartsfundecan" style="display:inline-block">
 				<span class="titlechartsfundecan">Recaudación</span>
 				<div class="circle" id="circles-2"></div>
+				<?php
+					$alcanzarmeta=get_user_meta( $user_id,'alcanzar_meta', true );
+					$metaalcanzar=get_user_meta( $user_id,'meta_a_alcanzar', true );
+
+					$valoracumulado=10;
+					if ($alcanzarmeta=="SI" && $metaalcanzar!=""){
+						?>
+						<div class="metaalcanzar">
+							<?php
+						echo 'Meta a alcanzar: <br>Q'.$metaalcanzar;
+							?>
+						</div>
+						<?php
+					}
+				?>
 				<script>
 				jQuery(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-2',
 					  radius:              80,
-					  value:               43,
-					  maxValue:            100,
+					  value:               <?php echo $valoracumulado;?>,
+					  maxValue:            <?php echo $metaalcanzar;?>,
 					  width:               10,
 					  text:                function(value){return "Q"+value;},
 					  colors:              ['#ffffff', '#30ff00'],
@@ -202,7 +252,7 @@
 
 		
 			<div class="sharedlink">
-					<span class="titlechartsfundecan">Link para Compartir</span>
+					<span class="titlechartsfundecan">Comparte tu perfil para obtener donaciones:</span>
 					<a href="<?php echo $userpro->permalink($user_id); ?>" target="_blank" class=" link" ><?php echo $userpro->permalink($user_id); ?></a>
 			</div>
 			

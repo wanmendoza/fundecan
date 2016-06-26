@@ -7,7 +7,7 @@
 		<?php if ( userpro_get_option('lightbox') && userpro_get_option('profile_lightbox') ) { ?>
 		<div class="userpro-profile-img" data-key="profilepicture"><a href="<?php echo $userpro->profile_photo_url($user_id); ?>" class="userpro-tip-fade lightview" data-lightview-caption="<?php echo $userpro->profile_photo_title( $user_id ); ?>" title="<?php _e('View member photo','userpro'); ?>"><?php echo get_avatar( $user_id, $profile_thumb_size ); ?></a></div>
 		<?php } else { ?>
-		<div class="userpro-profile-img" data-key="profilepicture"><a href="<?php echo $userpro->permalink($user_id); ?>" title="<?php _e('View Profile','userpro'); ?>"><?php echo get_avatar( $user_id, $profile_thumb_size ); ?></a></div>
+		<div class="userpro-profile-img" data-key="profilepicture"><a href="<?php echo $userpro->permalink($user_id); ?>" title="Ver Perfil"><?php echo get_avatar( $user_id, $profile_thumb_size ); ?></a></div>
 		<?php } ?>
 		
 		<div class="userpro-profile-img-after">
@@ -19,7 +19,7 @@
 				<?php if (isset($header_only)){ ?>
 				<a href="<?php echo $userpro->permalink($user_id); ?>" class="userpro-button secondary"><?php _e('View Profile','userpro') ?></a>
 				<?php } else { ?>
-				<a href="#" data-up_username="<?php echo $userpro->id_to_member($user_id); ?>" data-template="view" class="userpro-button secondary"><?php _e('View Profile','userpro') ?></a>
+				<a href="#" data-up_username="<?php echo $userpro->id_to_member($user_id); ?>" data-template="view" class="userpro-button secondary">Ver Perfil</a>
 				<?php } ?>
 				<img src="<?php echo $userpro->skin_url(); ?>loading.gif" alt="" class="userpro-loading" />
 			</div>
@@ -33,7 +33,7 @@
 			} ?>
 		</div>
 			
-		<?php echo $userpro->show_social_bar( $args, $user_id, 'userpro-centered-icons' ); ?>
+		<!-- <?php echo $userpro->show_social_bar( $args, $user_id, 'userpro-centered-icons' ); ?> -->
 
 		<div class="userpro-clear"></div>
 			

@@ -50,7 +50,7 @@ class userpro_sc_api {
 		
 			case 'verified':
 		
-				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="'. __('View Profile','userpro'). '">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
+				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="Ver Perfil">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
 				$status .= '<span class="userpro-sc-i-info">';
 				$status .= __('is now a verified account.','userpro');
 				$status .= '</span>';
@@ -62,7 +62,7 @@ class userpro_sc_api {
 		
 				$array = get_user_meta($user_id, '_userpro_followers_ids', true);
 				
-				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'. $userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="'. __('View Profile','userpro'). '">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
+				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'. $userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="Ver Perfil">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
 				$status .= '<span class="userpro-sc-i-info">';
 				
 				if($var3=="userpro_userwall")
@@ -102,7 +102,7 @@ class userpro_sc_api {
 			
 			case 'update_post':
 			
-				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="'. __('View Profile','userpro'). '">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
+				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="Ver Perfil">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
 				$status .= '<span class="userpro-sc-i-info">';
 				
 				$status .= sprintf(__('has updated a <a href="%s">%s</a>.','userpro'), get_permalink($var1), $var3);
@@ -118,7 +118,7 @@ class userpro_sc_api {
 				
 			case 'new_comment':
 			
-				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="'. __('View Profile','userpro'). '">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
+				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="Ver Perfil">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
 				$status .= '<span class="userpro-sc-i-info">';
 				$status .= __('has posted a new comment on:','userpro');
 				$status .= '<span class="userpro-sc-i-sp">"<a href="'.get_permalink($var1).'">'.$var2.'</a>"</span>';
@@ -131,7 +131,7 @@ class userpro_sc_api {
 			
 				$dest = get_userdata($var1);
 			
-				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="'. __('View Profile','userpro'). '">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
+				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="Ver Perfil">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
 				$status .= '<span class="userpro-sc-i-info">';
 				$status .= sprintf(__('has started following <a href="%s">%s</a>','userpro'), $userpro->permalink( $dest->ID ), userpro_profile_data('display_name', $dest->ID) );
 				$status .= '</span>';
@@ -150,7 +150,7 @@ class userpro_sc_api {
 			
 				$dest = get_userdata($var1);
 			
-				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="'. __('View Profile','userpro'). '">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
+				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="Ver Perfil">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
 				$status .= '<span class="userpro-sc-i-info">';
 				$status .= sprintf(__('has stopped following <a href="%s">%s</a>','userpro'), $userpro->permalink( $dest->ID ), userpro_profile_data('display_name', $dest->ID) );
 				$status .= '</span>';
@@ -160,7 +160,7 @@ class userpro_sc_api {
 				
 			case 'new_user' :
 			
-				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="'. __('View Profile','userpro'). '">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
+				$status .= '<div class="userpro-sc-img" data-key="profilepicture"><a href="'.$userpro->permalink( $user_id ).'">'.get_avatar( $user_id, '50' ).'</a></div><div class="userpro-sc-i"><div class="userpro-sc-i-name"><a href="'. $userpro->permalink( $user_id ) .'" title="Ver Perfil">'. userpro_profile_data('display_name', $user_id).'</a>'. userpro_show_badges( $user_id, false, array('custom'));
 				$status .= '<span class="userpro-sc-i-info">';
 				$status .= __('has just registered!','userpro');
 				$status .= '</span>';

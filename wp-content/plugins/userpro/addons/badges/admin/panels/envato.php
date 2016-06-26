@@ -24,7 +24,7 @@
 			<div><a href="<?php echo $userpro->permalink($user_id); ?>" target="_blank"><?php echo userpro_profile_data('display_name', $user_id); ?></a></div>
 			<div><span><?php echo $user->user_email; ?></span></div>
 			<div>
-				<a href="<?php echo $userpro->permalink($user_id); ?>" class="button button-primary"><?php _e('View Profile','userpro'); ?></a>
+				<a href="<?php echo $userpro->permalink($user_id); ?>" class="button button-primary">Ver Perfil</a>
 			</div>
 		</div>
 

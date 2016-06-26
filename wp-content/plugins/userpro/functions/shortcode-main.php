@@ -105,7 +105,7 @@
 				'online_mini'						=> 1,
 				'online_mode'						=> 'vertical',
 					
-				'edit_button_primary'				=> __('Save Changes','userpro'),
+				'edit_button_primary'				=> 'Guardar Cambios',
 				'edit_group'						=> 'default',
 					
 				'view_group'						=> 'default',

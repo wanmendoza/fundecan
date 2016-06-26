@@ -12,7 +12,7 @@
 			</div>
 			<?php if ( userpro_can_edit_user( $user_id ) ) { ?>
 			<div class="userpro-profile-img-btn">
-				<a href="<?php echo $userpro->permalink($user_id); ?>" class="userpro-button secondary"><?php _e('View Profile','userpro') ?></a>
+				<a href="<?php echo $userpro->permalink($user_id); ?>" class="userpro-button secondary">Ver Perfil</a>
 				<img src="<?php echo userpro_url; ?>skins/<?php echo $args['skin']; ?>/img/loading.gif" alt="" class="userpro-loading" />
 			</div>
 			<?php } ?>
@@ -83,7 +83,7 @@ if($args['following_paginate']==1)
 			</div>
 			
 			<div class="userpro-sc-i">
-				<div class="userpro-sc-i-name"><a href="<?php echo $userpro->permalink( $user ); ?>" title="<?php _e('View Profile','userpro'); ?>"><?php echo userpro_profile_data('display_name', $user); ?></a><?php echo userpro_show_badges( $user ); ?></div>
+				<div class="userpro-sc-i-name"><a href="<?php echo $userpro->permalink( $user ); ?>" title="Ver Perfil"><?php echo userpro_profile_data('display_name', $user); ?></a><?php echo userpro_show_badges( $user ); ?></div>
 				<?php if ($userpro->shortbio($user)) : ?><div class="userpro-sc-i-bio"><?php echo $userpro->shortbio( $user ); ?></div><?php endif; ?>
 				<div class="userpro-sc-i-icons"><?php echo userpro_profile_icons( $args, $user ); ?></div>
 			</div>
