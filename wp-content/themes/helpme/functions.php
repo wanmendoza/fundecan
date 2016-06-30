@@ -430,6 +430,10 @@ function add_query_vars_filter( $vars ){
 }
 add_filter( 'query_vars', 'add_query_vars_filter' );
 
+
+
+
+
 function kia_filter_billing_fields($fields){
     unset( $fields["billing_country"] );
     // unset( $fields["billing_company"] );
@@ -439,10 +443,31 @@ function kia_filter_billing_fields($fields){
     unset( $fields["billing_state"] );
     unset( $fields["billing_postcode"] );
     // unset( $fields["billing_phone"] );
+    // 
+    // 
+    
+     
+
+     $fields['billing_company'] = array(
+        'label'     => 'Empresa',
+    'placeholder'   => 'Ingrese el nombre de su empresa',
+    'required'  => false,
+    'class'     => array('form-row-wide'),
+    'clear'     => true
+     );
+
+
+     $fields['billing_checknumber'] = array(
+        'label'     => 'Numero de Cheque',
+    'placeholder'   => 'Si su donacion sera con cheque',
+    'required'  => false,
+    'class'     => array('form-row-wide'),
+    'clear'     => true
+     );
+
     return $fields;
 }
 add_filter( 'woocommerce_billing_fields', 'kia_filter_billing_fields' );
-
 
 ?>
 

@@ -700,12 +700,12 @@ class WC_REST_Customers_Controller extends WC_REST_Controller {
 					'context'     => array( 'view', 'edit' ),
 					'properties' => array(
 						'first_name' => array(
-							'description' => __( 'First name.', 'woocommerce' ),
+							'description' => 'Nombre',
 							'type'        => 'string',
 							'context'     => array( 'view', 'edit' ),
 						),
 						'last_name' => array(
-							'description' => __( 'Last name.', 'woocommerce' ),
+							'description' => 'Apellido',
 							'type'        => 'string',
 							'context'     => array( 'view', 'edit' ),
 						),

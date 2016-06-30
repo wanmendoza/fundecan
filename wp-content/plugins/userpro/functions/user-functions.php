@@ -23,7 +23,7 @@
 				$url = $logout_redirect;
 			}
 			?>
-			<a class="userpro-small-link" href="<?php echo wp_logout_url( $url ); ?>" title="<?php _e('Logout','userpro'); ?>"><?php _e('Logout','userpro'); ?></a>
+			<a class="userpro-small-link" href="<?php echo wp_logout_url( $url ); ?>" title="Cerrar Sesion">Cerrar Sesion</a>
 			<?php
 		}
 	}

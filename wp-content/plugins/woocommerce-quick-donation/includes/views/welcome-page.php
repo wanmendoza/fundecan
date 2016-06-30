@@ -91,13 +91,13 @@
 										
 										<div class="mc-field-group">
 											<label for="mce-FNAME">
-												<?php _e('First Name',WC_QD_TXT); ?> <span class="asterisk">*</span>
+												Nombre <span class="asterisk">*</span>
 											</label>
 											<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
 										</div>
 										
 										<div class="mc-field-group">
-											<label for="mce-LNAME"><?php _e('Last Name',WC_QD_TXT); ?> </label>
+											<label for="mce-LNAME">Apellido </label>
 											<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 										</div>
 										

@@ -543,13 +543,13 @@ class WC_Countries {
 	public function get_default_address_fields() {
 		$fields = array(
 			'first_name' => array(
-				'label'        => __( 'First Name', 'woocommerce' ),
+				'label'        => 'Nombre',
 				'required'     => true,
 				'class'        => array( 'form-row-first' ),
 				'autocomplete' => 'given-name',
 			),
 			'last_name' => array(
-				'label'        => __( 'Last Name', 'woocommerce' ),
+				'label'        => 'Apellido',
 				'required'     => true,
 				'class'        => array( 'form-row-last' ),
 				'clear'        => true,
@@ -1011,7 +1011,7 @@ class WC_Countries {
 			// Add email and phone after company or last
 			if ( 'billing_' === $type && ( 'company' === $key || ( ! array_key_exists( 'company', $fields ) && $key === end( $keys ) ) ) ) {
 				$address_fields['billing_email'] = array(
-					'label'        => __( 'Email Address', 'woocommerce' ),
+					'label'        => 'Email',
 					'required'     => true,
 					'type'         => 'email',
 					'class'        => array( 'form-row-first' ),
@@ -1019,7 +1019,7 @@ class WC_Countries {
 					'autocomplete' => 'email',
 				);
 				$address_fields['billing_phone'] = array(
-					'label'        => __( 'Phone', 'woocommerce' ),
+					'label'        => 'Telefono',
 					'required'     => true,
 					'type'         => 'tel',
 					'class'        => array( 'form-row-last' ),

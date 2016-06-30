@@ -473,7 +473,7 @@ $uppayment=get_option('userpro_payment');
 					$output["error"]["team_name"]="Selecciono formar parte de un equipo. Debe ingresar el nombre del equipo";
 				}
 
-				if (isset($form["multiplicador_esperanzas_selec"])=="SI" && !isset($form["alcanzar_meta"])){
+				if (isset($form["multiplicador_esperanzas_selec"]) && $form["multiplicador_esperanzas_selec"]=="SI" && !isset($form["alcanzar_meta"])){
 					$output["error"]["alcanzar_meta"]="Selecciono ser multiplicador de esperanzas. Seleccione si desea alcanzar una meta o no.";
 				}
 

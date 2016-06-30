@@ -90,6 +90,8 @@ class WooCommerce_Quick_Donation_Process extends WooCommerce_Quick_Donation  {
 	
     public function process_donation($donate_add = false,$project_id = null,$amount=null){
         if(isset($_POST['donation_add']) || $donate_add === true){
+            //print_r($this);
+            //exit;
             if($this->check_donation_already_exist()){
                 $message = WC_QD()->db()->get_message(WC_QD_DB.'donation_already_exist');
                 wc_add_notice($message,'error');
@@ -107,6 +109,9 @@ class WooCommerce_Quick_Donation_Process extends WooCommerce_Quick_Donation  {
             $donateprice = isset($_POST['wc_qd_donate_project_price']) ? $_POST['wc_qd_donate_project_price'] : $amount;
 			$projects = isset($_POST['wc_qd_donate_project_name']) && !empty($_POST['wc_qd_donate_project_name']) ? $_POST['wc_qd_donate_project_name'] : $project_id;
 
+$fundecanuserid = isset($_POST['fundecan_user_id']) && !empty($_POST['fundecan_user_id']) ? $_POST['fundecan_user_id'] : $fundecanuder_id;
+
+
             $check_donation_price = $this->check_donation_price_status($donateprice);
             if( ! $check_donation_price){return false;}
 
@@ -118,6 +123,7 @@ class WooCommerce_Quick_Donation_Process extends WooCommerce_Quick_Donation  {
             $woocommerce->session->donation_price = $donate_price;
             $woocommerce->session->projects = $projects;
 			$woocommerce->session->is_donation_product = true;
+            $woocommerce->session->fundecanuder_id=$fundecanuserid;
             
             $donation_added = $woocommerce->cart->add_to_cart(self::$donation_id);
             
@@ -224,7 +230,9 @@ class WooCommerce_Quick_Donation_Process extends WooCommerce_Quick_Donation  {
 		if($this->check_donation_exists_cart()){
 			$project_id = intval($woocommerce->session->projects);
 			$user_id = get_current_user_id(); 
+            $fundecanuder_id=$woocommerce->session->fundecanuder_id;
 			update_post_meta( $order_id,"_is_donation",true);
+            update_post_meta( $order_id,"_fundecanuser_id",$fundecanuder_id);
 			update_post_meta( $order_id,"_project_details",$woocommerce->session->projects);
 			WC_QD()->db()->add_db_option($order_id,$project_id,$user_id);
 		}

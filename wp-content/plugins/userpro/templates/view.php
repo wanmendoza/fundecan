@@ -129,7 +129,7 @@
 			    color: #fff !important;
 			    height: 40px !important;
 			    padding: 10px !important;
-			    width: 80px;
+			    width: 105px;
 			}
 
 			input.userpro-button.secondary, a.userpro-button.secondary, div.userpro div.ajax-file-upload {
@@ -141,6 +141,17 @@
 			    margin-bottom: 15px !important;
 			    padding: 3px !important;
 			    width: 100px;
+			}
+
+			.linktoshare{
+				padding: 5px !important;
+				border: 1px solid !important;
+				margin-top: 15px;
+				display: block;
+				width: 350px;
+				text-align: center;
+				margin: 0px auto !important;
+				color: rgb(0, 210, 255) !important;
 			}
 		</style>
 		
@@ -210,6 +221,34 @@
 				}
 				</style>
 			</div>
+
+<?php
+global $theorder;
+
+$orders = get_posts( array(
+		
+        'post_type'   => 'shop_order',
+        'post_status' =>  'on-hold',
+     //    'meta_key'    => '_is_donation',
+    	// 'meta_value'  => true,
+) );
+
+$valoracumulado=0;
+foreach ($orders as $order) {
+	$orderid=$order->ID;
+	$order = wc_get_order( $orderid );
+	$order_fundecanuser=get_post_meta($orderid, '_fundecanuser_id', true);
+
+	if ($order_fundecanuser==$user_id){
+		$valoracumulado=$valoracumulado+$order->get_total();
+	}
+}
+
+
+//print_r($theorder);
+?>
+
+
 			<div class="chartsfundecan" style="display:inline-block">
 				<span class="titlechartsfundecan">Recaudación</span>
 				<div class="circle" id="circles-2"></div>
@@ -217,7 +256,7 @@
 					$alcanzarmeta=get_user_meta( $user_id,'alcanzar_meta', true );
 					$metaalcanzar=get_user_meta( $user_id,'meta_a_alcanzar', true );
 
-					$valoracumulado=10;
+					//$valoracumulado=10;
 					if ($alcanzarmeta=="SI" && $metaalcanzar!=""){
 						?>
 						<div class="metaalcanzar">
@@ -226,6 +265,36 @@
 							?>
 						</div>
 						<?php
+					}else{
+						?>
+						<div class="metaalcanzar">
+							<?php
+						echo 'Meta a alcanzar: <br>Todo lo que pueda recaudar.';
+							?>
+						</div>
+
+						<?php
+						if ($metaalcanzar==""){
+							if ($valoracumulado<100){
+								$metaalcanzar=100;
+							}else{
+								if ($valoracumulado>=100 && $valoracumulado<500){
+									$metaalcanzar=500;
+								}else{
+									if ($valoracumulado>=500 && $valoracumulado<1000){
+										$metaalcanzar=1000;
+									}else{
+										if ($valoracumulado>=1000 && $valoracumulado<1500){
+												$metaalcanzar=1500;
+											}else{
+												if ($valoracumulado>=1500){
+														$metaalcanzar=$valoracumulado+500;
+													}
+											}
+									}
+								}
+							}
+						}
 					}
 				?>
 				<script>
@@ -253,11 +322,11 @@
 		
 			<div class="sharedlink">
 					<span class="titlechartsfundecan">Comparte tu perfil para obtener donaciones:</span>
-					<a href="<?php echo $userpro->permalink($user_id); ?>" target="_blank" class=" link" ><?php echo $userpro->permalink($user_id); ?></a>
+					<a href="<?php echo $userpro->permalink($user_id); ?>" target="_blank" class=" linktoshare link" ><?php echo $userpro->permalink($user_id); ?></a>
 			</div>
 			
 					<div class="donate-btn">
-				<a class="donate-header-btn" href="http://fundecan.local" style="padding: 12px 34px; min-width: 145px;font-size:22px;">DONAR</a>
+				<a target="_blank" class="donate-header-btn" href="/donacion?fundecanuser=<?php echo $user_id;?>" style="padding: 12px 34px; min-width: 145px;font-size:22px;">DONAR</a>
 			</div>
 				
 			

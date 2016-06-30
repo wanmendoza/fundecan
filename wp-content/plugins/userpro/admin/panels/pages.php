@@ -31,7 +31,7 @@
 	</tr>
 	
 	<tr valign="top">
-		<th scope="row"><label for="slug_logout"><?php _e('"Logout" Slug','userpro'); ?></label></th>
+		<th scope="row"><label for="slug_logout">Cerrar Sesion</label></th>
 		<td><input type="text" name="slug_logout" id="slug_logout" class="regular-text" value="<?php echo userpro_get_option('slug_logout'); ?>" /></td>
 	</tr>
 	

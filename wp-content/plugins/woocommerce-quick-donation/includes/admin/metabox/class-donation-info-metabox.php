@@ -40,11 +40,11 @@ class WC_Quick_Donation_Meta_Box_Order_Data {
 
 		self::$billing_fields = apply_filters( 'woocommerce_admin_billing_fields', array(
 			'first_name' => array(
-				'label' => __( 'First Name', WC_QD_TXT ),
+				'label' => 'Nombre',
 				'show'  => false
 			),
 			'last_name' => array(
-				'label' => __( 'Last Name', WC_QD_TXT ),
+				'label' => 'Apellido',
 				'show'  => false
 			),
 			'company' => array(
@@ -83,17 +83,17 @@ class WC_Quick_Donation_Meta_Box_Order_Data {
 				'label' => __( 'Email', WC_QD_TXT ),
 			),
 			'phone' => array(
-				'label' => __( 'Phone', WC_QD_TXT ),
+				'label' => 'Telefono',
 			),
 		) );
 
 		self::$shipping_fields = apply_filters( 'woocommerce_admin_shipping_fields', array(
 			'first_name' => array(
-				'label' => __( 'First Name', WC_QD_TXT ),
+				'label' => 'Nombre',
 				'show'  => false
 			),
 			'last_name' => array(
-				'label' => __( 'Last Name', WC_QD_TXT ),
+				'label' => 'Apellido',
 				'show'  => false
 			),
 			'company' => array(
@@ -189,14 +189,25 @@ class WC_Quick_Donation_Meta_Box_Order_Data {
 
 				<div class="order_data_column_container">
 					<div class="order_data_column">
-						<h4><?php _e( 'Donation Details', WC_QD_TXT ); ?></h4>
+						<h4>Detalles de la Donacion</h4>
+<?php
+$fundecanuser=get_post_meta( $post->ID, '_fundecanuser_id', true );
+?>
 
-						<p class="form-field form-field-wide"><label for="order_date"><?php _e( 'Donation date:', WC_QD_TXT ) ?></label>
+					<p class="form-field form-field-wide"><label for="order_status">Corredor</label>
+						<span style="color:#D10572">
+						<?php
+						echo $nombrefundecanuser=get_user_meta( $fundecanuser, 'display_name', true );
+						?>
+						</span>
+						</p>
+
+						<p class="form-field form-field-wide"><label for="order_date">Fecha Donacion:</label>
                             <input type="hidden" name="post_is_donation" value="TRUE"/>
 							<input type="text" class="date-picker" name="order_date" id="order_date" maxlength="10" value="<?php echo date_i18n( 'Y-m-d', strtotime( $post->post_date ) ); ?>" pattern="[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])" />@<input type="text" class="hour" placeholder="<?php esc_attr_e( 'h', WC_QD_TXT ) ?>" name="order_date_hour" id="order_date_hour" maxlength="2" size="2" value="<?php echo date_i18n( 'H', strtotime( $post->post_date ) ); ?>" pattern="\-?\d+(\.\d{0,})?" />:<input type="text" class="minute" placeholder="<?php esc_attr_e( 'm', WC_QD_TXT ) ?>" name="order_date_minute" id="order_date_minute" maxlength="2" size="2" value="<?php echo date_i18n( 'i', strtotime( $post->post_date ) ); ?>" pattern="\-?\d+(\.\d{0,})?" />
 						</p>
 
-						<p class="form-field form-field-wide"><label for="order_status"><?php _e( 'Donation status:', WC_QD_TXT ) ?></label>
+						<p class="form-field form-field-wide"><label for="order_status">Estado Donacion</label>
 						<select id="order_status" name="order_status" class="wc-enhanced-select">
 							<?php
 								$statuses = wc_get_order_statuses();
@@ -206,35 +217,13 @@ class WC_Quick_Donation_Meta_Box_Order_Data {
 							?>
 						</select></p>
 
-						<p class="form-field form-field-wide wc-customer-user">
-							<label for="customer_user"><?php _e( 'Customer:', WC_QD_TXT ) ?> <?php
-								if ( ! empty( $order->customer_user ) ) {
-									$args = array( 'post_status' => 'all',
-										'post_type'      => 'shop_order',
-										'_customer_user' => absint( $order->customer_user )
-									);
-									printf( '<a href="%s">%s &rarr;</a>',
-										esc_url( add_query_arg( $args, admin_url( 'edit.php' ) ) ),
-										__( 'View other orders', WC_QD_TXT )
-									);
-								}
-							?></label>
-							<?php
-							$user_string = '';
-							$user_id     = '';
-							if ( ! empty( $order->customer_user ) ) {
-								$user_id     = absint( $order->customer_user );
-								$user        = get_user_by( 'id', $user_id );
-								$user_string = esc_html( $user->display_name ) . ' (#' . absint( $user->ID ) . ' &ndash; ' . esc_html( $user->user_email ) . ')';
-							}
-							?>
-							<input type="hidden" class="wc-customer-search" id="customer_user" name="customer_user" data-placeholder="<?php esc_attr_e( 'Guest', WC_QD_TXT ); ?>" data-selected="<?php echo htmlspecialchars( $user_string ); ?>" value="<?php echo $user_id; ?>" data-allow_clear="true" />
-						</p>
+
+						
 						<?php do_action( 'woocommerce_admin_order_data_after_order_details', $order ); ?>
 					</div>
 					<div class="order_data_column">
 						<h4>
-							<?php _e( 'Donor Details', WC_QD_TXT ); ?>
+							Detalles del Donador
 							<a href="#" class="edit_address"><?php _e( 'Edit', WC_QD_TXT ); ?></a>
 							<a href="#" class="tips load_customer_billing" data-tip="<?php esc_attr_e( 'Load billing address', WC_QD_TXT ); ?>" style="display:none;"><?php _e( 'Load billing address', WC_QD_TXT ); ?></a>
 						</h4>
@@ -243,9 +232,9 @@ class WC_Quick_Donation_Meta_Box_Order_Data {
 							echo '<div class="address">';
 
 								if ( $order->get_formatted_billing_address() ) {
-									echo '<p><strong>' . __( 'Address', WC_QD_TXT ) . ':</strong>' . wp_kses( $order->get_formatted_billing_address(), array( 'br' => array() ) ) . '</p>';
+									echo '<p><strong>Direccion:</strong>' . wp_kses( $order->get_formatted_billing_address(), array( 'br' => array() ) ) . '</p>';
 								} else {
-									echo '<p class="none_set"><strong>' . __( 'Address', WC_QD_TXT ) . ':</strong> ' . __( 'No billing address set.', WC_QD_TXT ) . '</p>';
+									echo '<p class="none_set"><strong>Direccion:</strong> ' . __( 'No billing address set.', WC_QD_TXT ) . '</p>';
 								}
 
 								foreach ( self::$billing_fields as $key => $field ) {

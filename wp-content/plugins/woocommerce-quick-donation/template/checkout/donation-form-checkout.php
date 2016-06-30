@@ -36,7 +36,7 @@ $get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', WC()->cart->g
 
 		<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
 
-		<h3 id="order_review_heading"><?php _e( 'Your Donation', WC_QD_TXT ); ?></h3>
+		<h3 id="order_review_heading" style="color:#fff">Tu Donacion</h3>
 
 	<?php endif; ?>
 
@@ -49,5 +49,10 @@ $get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', WC()->cart->g
 	<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>
 
 </form>
+<style>
+.woocommerce-page table.shop_table thead th, .woocommerce table.shop_table thead th {
+    background-color: #d10572;
+    }
+</style>
 
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>

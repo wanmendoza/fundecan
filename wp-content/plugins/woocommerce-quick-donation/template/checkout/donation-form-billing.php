@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php else : ?>
 
-		<h3><?php _e( 'Donor Details', WC_QD_TXT ); ?></h3>
+		<h3 style="color:#fff !important; font-size:18px !important; text-align:center;">Detalles del Donador</h3>
 
 	<?php endif; ?>
 

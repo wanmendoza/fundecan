@@ -27,7 +27,7 @@ do_action( 'woocommerce_before_edit_account_form' ); ?>
 	<?php do_action( 'woocommerce_edit_account_form_start' ); ?>
 
 	<p class="woocommerce-FormRow woocommerce-FormRow--first form-row form-row-first">
-		<label for="account_first_name"><?php _e( 'First name', 'woocommerce' ); ?> <span class="required">*</span></label>
+		<label for="account_first_name">Nombre <span class="required">*</span></label>
 		<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="account_first_name" id="account_first_name" value="<?php echo esc_attr( $user->first_name ); ?>" />
 	</p>
 	<p class="woocommerce-FormRow woocommerce-FormRow--last form-row form-row-last">

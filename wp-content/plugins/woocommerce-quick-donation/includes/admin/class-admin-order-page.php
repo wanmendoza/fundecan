@@ -18,6 +18,9 @@ if ( ! defined( 'WPINC' ) ) { die; }
 class WooCommerce_Quick_Donation_Admin_Order_Page_Functions {
     public function __construct(){
         WC_QD()->load_files(WC_QD_ADMIN.'metabox/*.php');
+
+        //print_r($this);
+        //exit;
         
         add_filter( 'manage_shop_order_posts_columns', array( $this, 'shop_order_columns' ) );
         
@@ -40,8 +43,8 @@ class WooCommerce_Quick_Donation_Admin_Order_Page_Functions {
             $existingc['cb'] = $existing_columns['cb'];
             $existingc['order_status'] = $existing_columns['order_status'];
             $existingc['order_id'] = __('ID',WC_QD_TXT);
-            $existingc['by_user']  = __('Donor',WC_QD_TXT);
-            $existingc['donation_project'] = __("Project",WC_QD_TXT);
+            $existingc['by_user']  = 'Donador';
+            $existingc['donation_project'] = 'Causa';
             $existingc['customer_message'] = $existing_columns['customer_message'];
             $existingc['order_notes'] = $existing_columns['order_notes'];
             $existingc['order_date'] = $existing_columns['order_date'];
@@ -58,6 +61,8 @@ class WooCommerce_Quick_Donation_Admin_Order_Page_Functions {
 		if ( empty( $the_order ) || $the_order->id != $post->ID ) {
 			$the_order = wc_get_order( $post->ID );
 		}
+
+
 
         if('donation_project' == $column){
             $project_ID = WC_QD()->db()->get_project_id($post->ID);

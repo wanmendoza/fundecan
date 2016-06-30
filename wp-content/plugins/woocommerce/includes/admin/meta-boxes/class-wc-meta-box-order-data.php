@@ -40,11 +40,11 @@ class WC_Meta_Box_Order_Data {
 
 		self::$billing_fields = apply_filters( 'woocommerce_admin_billing_fields', array(
 			'first_name' => array(
-				'label' => __( 'First Name', 'woocommerce' ),
+				'label' =>'Nombre',
 				'show'  => false
 			),
 			'last_name' => array(
-				'label' => __( 'Last Name', 'woocommerce' ),
+				'label' => 'Apellido',
 				'show'  => false
 			),
 			'company' => array(
@@ -89,11 +89,11 @@ class WC_Meta_Box_Order_Data {
 
 		self::$shipping_fields = apply_filters( 'woocommerce_admin_shipping_fields', array(
 			'first_name' => array(
-				'label' => __( 'First Name', 'woocommerce' ),
+				'label' => 'Nombre',
 				'show'  => false
 			),
 			'last_name' => array(
-				'label' => __( 'Last Name', 'woocommerce' ),
+				'label' => 'Apellido',
 				'show'  => false
 			),
 			'company' => array(

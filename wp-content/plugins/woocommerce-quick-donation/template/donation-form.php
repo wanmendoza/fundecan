@@ -17,6 +17,7 @@
 $fundecanuserid=$_GET["fundecanuser"];
 $displayname=get_user_meta( $fundecanuserid,'display_name', true ); 
 ?>
+<input type="hidden" value="<?php echo $fundecanuserid?>" name="fundecan_user_id">
     <table>
         <tr>
             <td> Corredor </td>

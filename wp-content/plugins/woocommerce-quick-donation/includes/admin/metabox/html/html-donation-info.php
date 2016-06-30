@@ -1,7 +1,7 @@
 <table class="wc-order-totals">
 
 <tr>
-    <td class="label"><strong> <?php _e( 'Project Name', WC_QD_TXT ); ?> : </strong></td>
+    <td class="label"><strong> Causa : </strong></td>
     <td class="total">
         <div class="view"><?php 
 
@@ -32,7 +32,7 @@
 
 
 <tr>
-    <td class="label"><strong> <?php _e( 'Donation Amount', WC_QD_TXT ); ?> : </strong></td>
+    <td class="label"><strong> Monto : </strong></td>
     <td class="total">
         <div class="view"><?php echo $order->get_formatted_order_total(); ?></div>
         <div class="edit" style="display: none;">

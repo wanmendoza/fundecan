@@ -12,7 +12,7 @@
 				$slug_logout = userpro_get_option('slug_logout');
 				
 				$logout_page = array(
-					  'post_title'  		=> __('Logout','userpro'),
+					  'post_title'  		=> 'Cerrar Sesion',
 					  'post_content' 		=> '',
 					  'post_name'			=> $slug_logout,
 					  'comment_status' 		=> 'closed',

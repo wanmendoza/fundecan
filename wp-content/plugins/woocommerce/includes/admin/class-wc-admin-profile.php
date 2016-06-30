@@ -41,11 +41,11 @@ class WC_Admin_Profile {
 				'title' => __( 'Customer Billing Address', 'woocommerce' ),
 				'fields' => array(
 					'billing_first_name' => array(
-						'label'       => __( 'First name', 'woocommerce' ),
+						'label'       => 'Nombre',
 						'description' => ''
 					),
 					'billing_last_name' => array(
-						'label'       => __( 'Last name', 'woocommerce' ),
+						'label'       => 'Apellido',
 						'description' => ''
 					),
 					'billing_company' => array(
@@ -94,11 +94,11 @@ class WC_Admin_Profile {
 				'title' => __( 'Customer Shipping Address', 'woocommerce' ),
 				'fields' => array(
 					'shipping_first_name' => array(
-						'label'       => __( 'First name', 'woocommerce' ),
+						'label'       => __( 'Nombre', 'woocommerce' ),
 						'description' => ''
 					),
 					'shipping_last_name' => array(
-						'label'       => __( 'Last name', 'woocommerce' ),
+						'label'       => __( 'Apellido', 'woocommerce' ),
 						'description' => ''
 					),
 					'shipping_company' => array(
