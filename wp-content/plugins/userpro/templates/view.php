@@ -326,7 +326,7 @@ foreach ($orders as $order) {
 			</div>
 			
 					<div class="donate-btn">
-				<a target="_blank" class="donate-header-btn" href="/donacion?fundecanuser=<?php echo $user_id;?>" style="padding: 12px 34px; min-width: 145px;font-size:22px;">DONAR</a>
+				<a target="_blank" class="donate-header-btn" href="<?php echo get_site_url();?>/donacion/?fundecanuser=<?php echo $user_id;?>" style="padding: 12px 34px; min-width: 145px;font-size:22px;">DONAR</a>
 			</div>
 				
 			
