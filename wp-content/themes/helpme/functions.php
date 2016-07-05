@@ -469,6 +469,7 @@ function kia_filter_billing_fields($fields){
 }
 add_filter( 'woocommerce_billing_fields', 'kia_filter_billing_fields' );
 
+	
 ?>
 
 
